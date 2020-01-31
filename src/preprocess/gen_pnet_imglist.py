@@ -3,7 +3,7 @@ import argparse
 import os
 
 
-def gen_pnet_imglist(save_file, input_size, base_num):
+def gen_pnet_imglist(save_file, input_size, base_num, name):
     base_dir = os.path.join(save_file, input_size)
     with open(os.path.join(base_dir, 'pos_12.txt'), 'r') as f:
         pos = f.readlines()
@@ -11,7 +11,11 @@ def gen_pnet_imglist(save_file, input_size, base_num):
         neg = f.readlines()
     with open(os.path.join(base_dir, 'part_12.txt'), 'r') as f:
         part = f.readlines()
-    with open(os.path.join(base_dir, 'lfw_wider_landmark.txt'), 'r') as f:
+    if name == 'lfw':
+        anno_file = 'lfw_landmark.txt'
+    elif name == 'wider':
+        anno_file = 'lfw_wider_landmark.txt'
+    with open(os.path.join(base_dir, anno_file), 'r') as f:
         landmark = f.readlines()
     print('neg数量：{} pos数量：{} part数量:{} landmark数量:{}'.format(len(neg), len(pos), len(part), len(landmark)))
 
@@ -39,9 +43,11 @@ if __name__ == '__main__':
     parse = argparse.ArgumentParser(description='gen_pnet_imglist')
     parse.add_argument('--save_file', type=str, default='/mnt/data/changshuang/gen_data',
                         help='保存图片')
-    parse.add_argument('--input_size', type=str, default='12',
+    parse.add_argument('--input_size', type=str, required=True, choices=['12', '24', '48'],
                         help='对于具体网络输入图片的大小')
     parse.add_argument('--base_num', type=int, default=300000,
                         help='neg基础数量')
+    parse.add_argument('--name', type=str, required=True, choices=['lfw', 'wider'],
+                        help='landmark是否含有wider数据集')
     args = parse.parse_args()
-    gen_pnet_imglist(args.save_file, args.input_size, args.base_num)
+    gen_pnet_imglist(args.save_file, args.input_size, args.base_num, args.name)

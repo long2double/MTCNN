@@ -178,9 +178,9 @@ if __name__ == '__main__':
                         help='图片路径')
     parser.add_argument('--save_dir', type=str, default='/mnt/data/changshuang/gen_data',
                         help='保存路径')
-    parser.add_argument('--name', type=str, default='wider',
+    parser.add_argument('--name', type=str, required=True, choices=['lfw', 'wider'], 
                         help='选择landmark数据集')
-    parser.add_argument('--input_size', type=int, default=12,
+    parser.add_argument('--input_size', type=int, required=True, choices=[12, 24, 48],
                         help='对于具体网络输入图片的大小')
     parser.add_argument('--argument', type=bool, default=True,
                         help='是否对图像进行变换')

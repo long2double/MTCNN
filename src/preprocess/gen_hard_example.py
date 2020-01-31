@@ -164,7 +164,7 @@ if __name__ == '__main__':
                         help='图片路径')
     parser.add_argument('--save_dir', type=str, default='/mnt/data/changshuang/gen_data',
                         help='保存路径')
-    parser.add_argument('--input_size', type=str, default='24',
+    parser.add_argument('--input_size', type=str, required=True, choices=['12', '24', '48'],
                         help='对于具体网络输入图片的大小')
     args = parser.parse_args()
     gen_hard_example(args.img_dir, args.save_dir, args.input_size)

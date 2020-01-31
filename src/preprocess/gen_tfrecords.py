@@ -8,7 +8,7 @@ from tqdm import tqdm
 import random
 
 
-def gen_tfrecords(save_file, input_size):
+def gen_tfrecords(save_file, input_size, name):
     base_dir = os.path.join(save_file, input_size)
     tfrecord_dir = os.path.join(base_dir, 'tfrecord')
     if not os.path.exists(tfrecord_dir):
@@ -26,7 +26,10 @@ def gen_tfrecords(save_file, input_size):
         tf_filename3 = os.path.join(tfrecord_dir, 'neg_%s.tfrecord' % input_size)
         item3 = 'neg_%s.txt' % input_size
         tf_filename4 = os.path.join(tfrecord_dir, 'landmark_%s.tfrecord' % input_size)
-        item4 = 'lfw_wider_landmark.txt'
+        if name == 'lfw':
+            item4 = 'lfw_landmark.txt' 
+        elif name == 'wider':
+            item4 = 'lfw_wider_landmark.txt'
         tf_filenames = [tf_filename1, tf_filename2, tf_filename3, tf_filename4]
         items = [item1, item2, item3, item4]
     if tf.gfile.Exists(tf_filenames[0]):
@@ -175,8 +178,10 @@ if __name__ == '__main__':
     parse = argparse.ArgumentParser(description='gen_tfrecords')
     parse.add_argument('--save_file', type=str, default='/mnt/data/changshuang/gen_data',
                         help='保存图片路径')
-    parse.add_argument('--input_size', type=str, default='12',
+    parse.add_argument('--input_size', type=str, required=True, choices=['12', '24', '48'],
                         help='对于具体网络输入图片的大小')
+    parse.add_argument('--name', type=str, required=True, choices=['lfw', 'wider'],
+                        help='landmark是否包含wider数据集')
     args = parse.parse_args()
-    gen_tfrecords(args.save_file, args.input_size)
+    gen_tfrecords(args.save_file, args.input_size, args.name)
     

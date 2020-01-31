@@ -40,7 +40,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='train')
     parser.add_argument('--save_dir', type=str, default='/mnt/data/changshuang/gen_data',
                         help='保存图片路径')
-    parser.add_argument('--input_size', type=str, default='48',
+    parser.add_argument('--input_size', type=str, required=True, choices=['12', '24', '48'],
                         help='对于具体网络输入图片的大小')
     args = parser.parse_args()
     main(args.save_dir, args.input_size)
