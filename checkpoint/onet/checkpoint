@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/yanyan/MTCNN/checkpoint/onet/onet-30"
+all_model_checkpoint_paths: "/home/yanyan/MTCNN/checkpoint/onet/onet-26"
+all_model_checkpoint_paths: "/home/yanyan/MTCNN/checkpoint/onet/onet-27"
+all_model_checkpoint_paths: "/home/yanyan/MTCNN/checkpoint/onet/onet-28"
+all_model_checkpoint_paths: "/home/yanyan/MTCNN/checkpoint/onet/onet-29"
+all_model_checkpoint_paths: "/home/yanyan/MTCNN/checkpoint/onet/onet-30"

@@ -15,7 +15,7 @@ project_dir = os.path.dirname(__file__).split('MTCNN')[1]
 def evalution(data_file, anno_file, evalu):
     batch_size = 1
     detectors = [None, None, None]
-    model_path = [root_dir + '/MTCNN/checkpoint/pnet/pnet-30', root_dir + '/MTCNN/checkpoint/rnet/rnet-22', root_dir + '/MTCNN/checkpoint/onet/onet-30']
+    model_path = [root_dir + '/MTCNN/checkpoint/pnet/pnet-30', root_dir + '/MTCNN/checkpoint/rnet/rnet-30', root_dir + '/MTCNN/checkpoint/onet/onet-30']
 
     detectors[0] = PNetDetector(p_net, model_path[0])
     detectors[1] = Detector(r_net, 24, batch_size, model_path[1])
@@ -45,27 +45,27 @@ def evalution(data_file, anno_file, evalu):
         if nme != []:
             local_nme.extend(nme)
 
-        for i in range(boxes_c.shape[0]):
-            bbox = boxes_c[i, :4]
-            score = boxes_c[i, 4]
-            corpbbox = [int(bbox[0]), int(bbox[1]), int(bbox[2]), int(bbox[3])]
+    #     for i in range(boxes_c.shape[0]):
+    #         bbox = boxes_c[i, :4]
+    #         score = boxes_c[i, 4]
+    #         corpbbox = [int(bbox[0]), int(bbox[1]), int(bbox[2]), int(bbox[3])]
     
-            box_gt = img_bbox[i, :4]
-            corpbbox_gt = [int(box_gt[0]), int(box_gt[1]), int(box_gt[2]), int(box_gt[3])]
-            # 画人脸框
-            cv.rectangle(img, (corpbbox[0], corpbbox[1]), (corpbbox[2], corpbbox[3]), (0, 0, 255), 2)
-            cv.rectangle(img, (corpbbox_gt[0], corpbbox_gt[1]), (corpbbox_gt[2], corpbbox_gt[3]), (0, 225, 255), 2)
-            # 判别为人脸的置信度
-            cv.putText(img, '{:.2f}'.format(score), (corpbbox[0], corpbbox[1] - 2), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-            # 画关键点
-        for i in range(landmarks.shape[0]):
-            for j in range(len(landmarks[i]) // 2):
-                cv.circle(img, (int(landmarks[i][2 * j]), int(int(landmarks[i][2 * j + 1]))), 3, (0, 0, 255), -1)
-                cv.circle(img, (int(img_landmarks[i][2 * j]), int(int(img_landmarks[i][2 * j + 1]))), 3, (0, 255, 255), -1)
-        cv.imshow('show image', img)
-        if cv.waitKey(0) & 0xFF == ord('q'):
-            exit()
-    cv.destroyAllWindows()
+    #         box_gt = img_bbox[i, :4]
+    #         corpbbox_gt = [int(box_gt[0]), int(box_gt[1]), int(box_gt[2]), int(box_gt[3])]
+    #         # 画人脸框
+    #         cv.rectangle(img, (corpbbox[0], corpbbox[1]), (corpbbox[2], corpbbox[3]), (0, 0, 255), 2)
+    #         cv.rectangle(img, (corpbbox_gt[0], corpbbox_gt[1]), (corpbbox_gt[2], corpbbox_gt[3]), (0, 225, 255), 2)
+    #         # 判别为人脸的置信度
+    #         cv.putText(img, '{:.2f}'.format(score), (corpbbox[0], corpbbox[1] - 2), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+    #         # 画关键点
+    #     for i in range(landmarks.shape[0]):
+    #         for j in range(len(landmarks[i]) // 2):
+    #             cv.circle(img, (int(landmarks[i][2 * j]), int(int(landmarks[i][2 * j + 1]))), 3, (0, 0, 255), -1)
+    #             cv.circle(img, (int(img_landmarks[i][2 * j]), int(int(img_landmarks[i][2 * j + 1]))), 3, (0, 255, 255), -1)
+    #     cv.imshow('show image', img)
+    #     if cv.waitKey(0) & 0xFF == ord('q'):
+    #         exit()
+    # cv.destroyAllWindows()
 
     each_landmark = np.array(local_nme).T
     each_landmark_mean = np.mean(each_landmark, axis=1)

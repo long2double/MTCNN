@@ -11,7 +11,7 @@ lr_epoch = [6, 14, 20]
 # 最小人脸大小
 min_face = 40
 # gpu选择
-gpu = 3
+gpu = 1
 # 生成hard_example的batch
 batches = [2048, 256, 16]
 # pnet对图像缩小倍数

@@ -20,7 +20,7 @@ def camera(test_mode, input_mode, test_dir, out_path):
 
     detectors = [None, None, None]
     # 模型放置位置
-    model_path = ['checkpoint/pnet/pnet-30', 'checkpoint/rnet/rnet-22', 'checkpoint/onet/onet-30']
+    model_path = ['checkpoint/pnet/pnet-30', 'checkpoint/rnet/rnet-30', 'checkpoint/onet/onet-30']
     pnet = PNetDetector(p_net, model_path[0])
     detectors[0] = pnet
 

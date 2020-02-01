@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/yanyan/MTCNN/checkpoint/rnet/rnet-30"
+all_model_checkpoint_paths: "/home/yanyan/MTCNN/checkpoint/rnet/rnet-26"
+all_model_checkpoint_paths: "/home/yanyan/MTCNN/checkpoint/rnet/rnet-27"
+all_model_checkpoint_paths: "/home/yanyan/MTCNN/checkpoint/rnet/rnet-28"
+all_model_checkpoint_paths: "/home/yanyan/MTCNN/checkpoint/rnet/rnet-29"
+all_model_checkpoint_paths: "/home/yanyan/MTCNN/checkpoint/rnet/rnet-30"

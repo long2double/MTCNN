@@ -25,7 +25,7 @@ def gen_hard_example(img_dir, save_dir, input_size):
     stride = config.stride
     thresh = config.thresh
     # 模型地址
-    model_path = [root_dir + 'MTCNN/checkpoint/pnet/pnet-1', root_dir + 'MTCNN/checkpoint/rnet/rnet-1', root_dir + 'MTCNN/checkpoint/onet/onet-1']
+    model_path = [root_dir + 'MTCNN/checkpoint/pnet/pnet-30', root_dir + 'MTCNN/checkpoint/rnet/rnet-30', root_dir + 'MTCNN/checkpoint/onet/onet-30']
     net, save_size = None, None
     if input_size == '12':
         net = 'pnet'
@@ -164,7 +164,7 @@ if __name__ == '__main__':
                         help='图片路径')
     parser.add_argument('--save_dir', type=str, default='/mnt/data/changshuang/gen_data',
                         help='保存路径')
-    parser.add_argument('--input_size', type=str, required=True, choices=['12', '24', '48'],
+    parser.add_argument('--input_size', type=str, default='24', choices=['12', '24', '48'],
                         help='对于具体网络输入图片的大小')
     args = parser.parse_args()
     gen_hard_example(args.img_dir, args.save_dir, args.input_size)

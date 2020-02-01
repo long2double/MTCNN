@@ -1,0 +1,912 @@
+[2020-02-01 19:10:37 train_model.py:125] INFO     epoch:1/30
+[2020-02-01 19:10:37 train_model.py:127] INFO     Step: 100/45690, accuracy: 0.750000, cls loss: 0.653310, bbox loss: 0.058676,Landmark loss :0.196828,L2 loss: 0.049557, Total Loss: 0.929032 ,lr:0.001000 
+[2020-02-01 19:10:44 train_model.py:125] INFO     epoch:1/30
+[2020-02-01 19:10:44 train_model.py:127] INFO     Step: 200/45690, accuracy: 0.750000, cls loss: 0.649181, bbox loss: 0.052825,Landmark loss :0.171270,L2 loss: 0.049492, Total Loss: 0.896355 ,lr:0.001000 
+[2020-02-01 19:10:52 train_model.py:125] INFO     epoch:1/30
+[2020-02-01 19:10:52 train_model.py:127] INFO     Step: 300/45690, accuracy: 0.750000, cls loss: 0.646254, bbox loss: 0.056494,Landmark loss :0.181097,L2 loss: 0.049449, Total Loss: 0.905047 ,lr:0.001000 
+[2020-02-01 19:10:59 train_model.py:125] INFO     epoch:1/30
+[2020-02-01 19:10:59 train_model.py:127] INFO     Step: 400/45690, accuracy: 0.750000, cls loss: 0.637706, bbox loss: 0.047596,Landmark loss :0.155713,L2 loss: 0.049420, Total Loss: 0.866637 ,lr:0.001000 
+[2020-02-01 19:11:07 train_model.py:125] INFO     epoch:1/30
+[2020-02-01 19:11:07 train_model.py:127] INFO     Step: 500/45690, accuracy: 0.750000, cls loss: 0.630679, bbox loss: 0.052785,Landmark loss :0.153216,L2 loss: 0.049403, Total Loss: 0.859691 ,lr:0.001000 
+[2020-02-01 19:11:15 train_model.py:125] INFO     epoch:1/30
+[2020-02-01 19:11:15 train_model.py:127] INFO     Step: 600/45690, accuracy: 0.750000, cls loss: 0.625802, bbox loss: 0.058443,Landmark loss :0.119218,L2 loss: 0.049398, Total Loss: 0.823640 ,lr:0.001000 
+[2020-02-01 19:11:22 train_model.py:125] INFO     epoch:1/30
+[2020-02-01 19:11:22 train_model.py:127] INFO     Step: 700/45690, accuracy: 0.777344, cls loss: 0.601928, bbox loss: 0.056088,Landmark loss :0.142655,L2 loss: 0.049403, Total Loss: 0.822029 ,lr:0.001000 
+[2020-02-01 19:11:30 train_model.py:125] INFO     epoch:1/30
+[2020-02-01 19:11:30 train_model.py:127] INFO     Step: 800/45690, accuracy: 0.800781, cls loss: 0.590728, bbox loss: 0.059205,Landmark loss :0.157661,L2 loss: 0.049420, Total Loss: 0.827412 ,lr:0.001000 
+[2020-02-01 19:11:37 train_model.py:125] INFO     epoch:1/30
+[2020-02-01 19:11:37 train_model.py:127] INFO     Step: 900/45690, accuracy: 0.820312, cls loss: 0.572224, bbox loss: 0.056616,Landmark loss :0.115238,L2 loss: 0.049444, Total Loss: 0.765213 ,lr:0.001000 
+[2020-02-01 19:11:44 train_model.py:125] INFO     epoch:1/30
+[2020-02-01 19:11:44 train_model.py:127] INFO     Step: 1000/45690, accuracy: 0.855469, cls loss: 0.520294, bbox loss: 0.051359,Landmark loss :0.141004,L2 loss: 0.049472, Total Loss: 0.736450 ,lr:0.001000 
+[2020-02-01 19:11:52 train_model.py:125] INFO     epoch:1/30
+[2020-02-01 19:11:52 train_model.py:127] INFO     Step: 1100/45690, accuracy: 0.820312, cls loss: 0.572630, bbox loss: 0.056262,Landmark loss :0.105313,L2 loss: 0.049495, Total Loss: 0.755569 ,lr:0.001000 
+[2020-02-01 19:12:00 train_model.py:125] INFO     epoch:1/30
+[2020-02-01 19:12:00 train_model.py:127] INFO     Step: 1200/45690, accuracy: 0.832031, cls loss: 0.523638, bbox loss: 0.046850,Landmark loss :0.099919,L2 loss: 0.049516, Total Loss: 0.696498 ,lr:0.001000 
+[2020-02-01 19:12:07 train_model.py:125] INFO     epoch:1/30
+[2020-02-01 19:12:07 train_model.py:127] INFO     Step: 1300/45690, accuracy: 0.878906, cls loss: 0.437322, bbox loss: 0.056506,Landmark loss :0.109597,L2 loss: 0.049538, Total Loss: 0.624710 ,lr:0.001000 
+[2020-02-01 19:12:15 train_model.py:125] INFO     epoch:1/30
+[2020-02-01 19:12:15 train_model.py:127] INFO     Step: 1400/45690, accuracy: 0.832031, cls loss: 0.530133, bbox loss: 0.042332,Landmark loss :0.088748,L2 loss: 0.049556, Total Loss: 0.689603 ,lr:0.001000 
+[2020-02-01 19:12:23 train_model.py:125] INFO     epoch:1/30
+[2020-02-01 19:12:23 train_model.py:127] INFO     Step: 1500/45690, accuracy: 0.878906, cls loss: 0.407126, bbox loss: 0.042250,Landmark loss :0.118904,L2 loss: 0.049585, Total Loss: 0.596740 ,lr:0.001000 
+[2020-02-01 19:12:31 train_model.py:125] INFO     epoch:2/30
+[2020-02-01 19:12:31 train_model.py:127] INFO     Step: 1600/45690, accuracy: 0.882812, cls loss: 0.377577, bbox loss: 0.055483,Landmark loss :0.103442,L2 loss: 0.049608, Total Loss: 0.558369 ,lr:0.001000 
+[2020-02-01 19:12:38 train_model.py:125] INFO     epoch:2/30
+[2020-02-01 19:12:38 train_model.py:127] INFO     Step: 1700/45690, accuracy: 0.902344, cls loss: 0.404222, bbox loss: 0.050145,Landmark loss :0.139413,L2 loss: 0.049641, Total Loss: 0.618349 ,lr:0.001000 
+[2020-02-01 19:12:46 train_model.py:125] INFO     epoch:2/30
+[2020-02-01 19:12:46 train_model.py:127] INFO     Step: 1800/45690, accuracy: 0.925781, cls loss: 0.294603, bbox loss: 0.045723,Landmark loss :0.088259,L2 loss: 0.049670, Total Loss: 0.455394 ,lr:0.001000 
+[2020-02-01 19:12:53 train_model.py:125] INFO     epoch:2/30
+[2020-02-01 19:12:53 train_model.py:127] INFO     Step: 1900/45690, accuracy: 0.921875, cls loss: 0.371103, bbox loss: 0.044855,Landmark loss :0.108014,L2 loss: 0.049694, Total Loss: 0.551240 ,lr:0.001000 
+[2020-02-01 19:13:01 train_model.py:125] INFO     epoch:2/30
+[2020-02-01 19:13:01 train_model.py:127] INFO     Step: 2000/45690, accuracy: 0.898438, cls loss: 0.377556, bbox loss: 0.053733,Landmark loss :0.078886,L2 loss: 0.049716, Total Loss: 0.533025 ,lr:0.001000 
+[2020-02-01 19:13:08 train_model.py:125] INFO     epoch:2/30
+[2020-02-01 19:13:08 train_model.py:127] INFO     Step: 2100/45690, accuracy: 0.921875, cls loss: 0.330072, bbox loss: 0.045837,Landmark loss :0.086702,L2 loss: 0.049735, Total Loss: 0.489428 ,lr:0.001000 
+[2020-02-01 19:13:16 train_model.py:125] INFO     epoch:2/30
+[2020-02-01 19:13:16 train_model.py:127] INFO     Step: 2200/45690, accuracy: 0.929688, cls loss: 0.280847, bbox loss: 0.054283,Landmark loss :0.141094,L2 loss: 0.049764, Total Loss: 0.498846 ,lr:0.001000 
+[2020-02-01 19:13:23 train_model.py:125] INFO     epoch:2/30
+[2020-02-01 19:13:23 train_model.py:127] INFO     Step: 2300/45690, accuracy: 0.933594, cls loss: 0.293492, bbox loss: 0.051939,Landmark loss :0.102045,L2 loss: 0.049784, Total Loss: 0.471290 ,lr:0.001000 
+[2020-02-01 19:13:31 train_model.py:125] INFO     epoch:2/30
+[2020-02-01 19:13:31 train_model.py:127] INFO     Step: 2400/45690, accuracy: 0.894531, cls loss: 0.346347, bbox loss: 0.042272,Landmark loss :0.083208,L2 loss: 0.049807, Total Loss: 0.500498 ,lr:0.001000 
+[2020-02-01 19:13:38 train_model.py:125] INFO     epoch:2/30
+[2020-02-01 19:13:38 train_model.py:127] INFO     Step: 2500/45690, accuracy: 0.921875, cls loss: 0.329683, bbox loss: 0.041862,Landmark loss :0.112780,L2 loss: 0.049827, Total Loss: 0.513221 ,lr:0.001000 
+[2020-02-01 19:13:46 train_model.py:125] INFO     epoch:2/30
+[2020-02-01 19:13:46 train_model.py:127] INFO     Step: 2600/45690, accuracy: 0.921875, cls loss: 0.339075, bbox loss: 0.051150,Landmark loss :0.104440,L2 loss: 0.049849, Total Loss: 0.518939 ,lr:0.001000 
+[2020-02-01 19:13:53 train_model.py:125] INFO     epoch:2/30
+[2020-02-01 19:13:53 train_model.py:127] INFO     Step: 2700/45690, accuracy: 0.925781, cls loss: 0.276652, bbox loss: 0.047190,Landmark loss :0.062705,L2 loss: 0.049861, Total Loss: 0.412813 ,lr:0.001000 
+[2020-02-01 19:14:00 train_model.py:125] INFO     epoch:2/30
+[2020-02-01 19:14:00 train_model.py:127] INFO     Step: 2800/45690, accuracy: 0.906250, cls loss: 0.389283, bbox loss: 0.053310,Landmark loss :0.069551,L2 loss: 0.049871, Total Loss: 0.535359 ,lr:0.001000 
+[2020-02-01 19:14:08 train_model.py:125] INFO     epoch:2/30
+[2020-02-01 19:14:08 train_model.py:127] INFO     Step: 2900/45690, accuracy: 0.937500, cls loss: 0.237941, bbox loss: 0.046413,Landmark loss :0.077726,L2 loss: 0.049891, Total Loss: 0.388764 ,lr:0.001000 
+[2020-02-01 19:14:15 train_model.py:125] INFO     epoch:2/30
+[2020-02-01 19:14:15 train_model.py:127] INFO     Step: 3000/45690, accuracy: 0.917969, cls loss: 0.272774, bbox loss: 0.042428,Landmark loss :0.070546,L2 loss: 0.049900, Total Loss: 0.414433 ,lr:0.001000 
+[2020-02-01 19:14:23 train_model.py:125] INFO     epoch:3/30
+[2020-02-01 19:14:23 train_model.py:127] INFO     Step: 3100/45690, accuracy: 0.910156, cls loss: 0.332074, bbox loss: 0.046966,Landmark loss :0.071648,L2 loss: 0.049913, Total Loss: 0.477118 ,lr:0.001000 
+[2020-02-01 19:14:30 train_model.py:125] INFO     epoch:3/30
+[2020-02-01 19:14:30 train_model.py:127] INFO     Step: 3200/45690, accuracy: 0.953125, cls loss: 0.244561, bbox loss: 0.038644,Landmark loss :0.084679,L2 loss: 0.049922, Total Loss: 0.398484 ,lr:0.001000 
+[2020-02-01 19:14:38 train_model.py:125] INFO     epoch:3/30
+[2020-02-01 19:14:38 train_model.py:127] INFO     Step: 3300/45690, accuracy: 0.929688, cls loss: 0.270542, bbox loss: 0.037636,Landmark loss :0.088948,L2 loss: 0.049940, Total Loss: 0.428248 ,lr:0.001000 
+[2020-02-01 19:14:45 train_model.py:125] INFO     epoch:3/30
+[2020-02-01 19:14:45 train_model.py:127] INFO     Step: 3400/45690, accuracy: 0.945312, cls loss: 0.215099, bbox loss: 0.048427,Landmark loss :0.058888,L2 loss: 0.049945, Total Loss: 0.348146 ,lr:0.001000 
+[2020-02-01 19:14:53 train_model.py:125] INFO     epoch:3/30
+[2020-02-01 19:14:53 train_model.py:127] INFO     Step: 3500/45690, accuracy: 0.929688, cls loss: 0.284289, bbox loss: 0.048005,Landmark loss :0.065127,L2 loss: 0.049951, Total Loss: 0.423369 ,lr:0.001000 
+[2020-02-01 19:15:00 train_model.py:125] INFO     epoch:3/30
+[2020-02-01 19:15:00 train_model.py:127] INFO     Step: 3600/45690, accuracy: 0.949219, cls loss: 0.224154, bbox loss: 0.049034,Landmark loss :0.109426,L2 loss: 0.049950, Total Loss: 0.408048 ,lr:0.001000 
+[2020-02-01 19:15:08 train_model.py:125] INFO     epoch:3/30
+[2020-02-01 19:15:08 train_model.py:127] INFO     Step: 3700/45690, accuracy: 0.957031, cls loss: 0.247656, bbox loss: 0.040533,Landmark loss :0.064012,L2 loss: 0.049954, Total Loss: 0.381888 ,lr:0.001000 
+[2020-02-01 19:15:16 train_model.py:125] INFO     epoch:3/30
+[2020-02-01 19:15:16 train_model.py:127] INFO     Step: 3800/45690, accuracy: 0.933594, cls loss: 0.246998, bbox loss: 0.048021,Landmark loss :0.073840,L2 loss: 0.049954, Total Loss: 0.394803 ,lr:0.001000 
+[2020-02-01 19:15:23 train_model.py:125] INFO     epoch:3/30
+[2020-02-01 19:15:23 train_model.py:127] INFO     Step: 3900/45690, accuracy: 0.937500, cls loss: 0.292862, bbox loss: 0.046831,Landmark loss :0.094293,L2 loss: 0.049964, Total Loss: 0.460534 ,lr:0.001000 
+[2020-02-01 19:15:31 train_model.py:125] INFO     epoch:3/30
+[2020-02-01 19:15:31 train_model.py:127] INFO     Step: 4000/45690, accuracy: 0.960938, cls loss: 0.168580, bbox loss: 0.040388,Landmark loss :0.070493,L2 loss: 0.049969, Total Loss: 0.309236 ,lr:0.001000 
+[2020-02-01 19:15:38 train_model.py:125] INFO     epoch:3/30
+[2020-02-01 19:15:38 train_model.py:127] INFO     Step: 4100/45690, accuracy: 0.945312, cls loss: 0.201398, bbox loss: 0.040712,Landmark loss :0.098816,L2 loss: 0.049968, Total Loss: 0.370538 ,lr:0.001000 
+[2020-02-01 19:15:46 train_model.py:125] INFO     epoch:3/30
+[2020-02-01 19:15:46 train_model.py:127] INFO     Step: 4200/45690, accuracy: 0.960938, cls loss: 0.210249, bbox loss: 0.047385,Landmark loss :0.083135,L2 loss: 0.049969, Total Loss: 0.367046 ,lr:0.001000 
+[2020-02-01 19:15:53 train_model.py:125] INFO     epoch:3/30
+[2020-02-01 19:15:53 train_model.py:127] INFO     Step: 4300/45690, accuracy: 0.945312, cls loss: 0.243637, bbox loss: 0.042917,Landmark loss :0.054259,L2 loss: 0.049967, Total Loss: 0.369321 ,lr:0.001000 
+[2020-02-01 19:16:01 train_model.py:125] INFO     epoch:3/30
+[2020-02-01 19:16:01 train_model.py:127] INFO     Step: 4400/45690, accuracy: 0.957031, cls loss: 0.160490, bbox loss: 0.034796,Landmark loss :0.069818,L2 loss: 0.049968, Total Loss: 0.297674 ,lr:0.001000 
+[2020-02-01 19:16:08 train_model.py:125] INFO     epoch:3/30
+[2020-02-01 19:16:08 train_model.py:127] INFO     Step: 4500/45690, accuracy: 0.937500, cls loss: 0.175675, bbox loss: 0.043482,Landmark loss :0.099192,L2 loss: 0.049962, Total Loss: 0.346570 ,lr:0.001000 
+[2020-02-01 19:16:16 train_model.py:125] INFO     epoch:4/30
+[2020-02-01 19:16:16 train_model.py:127] INFO     Step: 4600/45690, accuracy: 0.941406, cls loss: 0.199540, bbox loss: 0.040458,Landmark loss :0.083863,L2 loss: 0.049965, Total Loss: 0.353597 ,lr:0.001000 
+[2020-02-01 19:16:23 train_model.py:125] INFO     epoch:4/30
+[2020-02-01 19:16:23 train_model.py:127] INFO     Step: 4700/45690, accuracy: 0.968750, cls loss: 0.186596, bbox loss: 0.046309,Landmark loss :0.070292,L2 loss: 0.049961, Total Loss: 0.330003 ,lr:0.001000 
+[2020-02-01 19:16:31 train_model.py:125] INFO     epoch:4/30
+[2020-02-01 19:16:31 train_model.py:127] INFO     Step: 4800/45690, accuracy: 0.960938, cls loss: 0.184941, bbox loss: 0.042796,Landmark loss :0.105343,L2 loss: 0.049957, Total Loss: 0.361638 ,lr:0.001000 
+[2020-02-01 19:16:38 train_model.py:125] INFO     epoch:4/30
+[2020-02-01 19:16:38 train_model.py:127] INFO     Step: 4900/45690, accuracy: 0.949219, cls loss: 0.232138, bbox loss: 0.041841,Landmark loss :0.052647,L2 loss: 0.049953, Total Loss: 0.355659 ,lr:0.001000 
+[2020-02-01 19:16:46 train_model.py:125] INFO     epoch:4/30
+[2020-02-01 19:16:46 train_model.py:127] INFO     Step: 5000/45690, accuracy: 0.960938, cls loss: 0.190716, bbox loss: 0.046791,Landmark loss :0.071083,L2 loss: 0.049948, Total Loss: 0.335143 ,lr:0.001000 
+[2020-02-01 19:16:53 train_model.py:125] INFO     epoch:4/30
+[2020-02-01 19:16:53 train_model.py:127] INFO     Step: 5100/45690, accuracy: 0.968750, cls loss: 0.129413, bbox loss: 0.040967,Landmark loss :0.057366,L2 loss: 0.049947, Total Loss: 0.257209 ,lr:0.001000 
+[2020-02-01 19:17:01 train_model.py:125] INFO     epoch:4/30
+[2020-02-01 19:17:01 train_model.py:127] INFO     Step: 5200/45690, accuracy: 0.960938, cls loss: 0.212461, bbox loss: 0.041360,Landmark loss :0.079333,L2 loss: 0.049941, Total Loss: 0.362415 ,lr:0.001000 
+[2020-02-01 19:17:08 train_model.py:125] INFO     epoch:4/30
+[2020-02-01 19:17:08 train_model.py:127] INFO     Step: 5300/45690, accuracy: 0.964844, cls loss: 0.146585, bbox loss: 0.036715,Landmark loss :0.078730,L2 loss: 0.049941, Total Loss: 0.293613 ,lr:0.001000 
+[2020-02-01 19:17:16 train_model.py:125] INFO     epoch:4/30
+[2020-02-01 19:17:16 train_model.py:127] INFO     Step: 5400/45690, accuracy: 0.957031, cls loss: 0.227483, bbox loss: 0.049331,Landmark loss :0.050486,L2 loss: 0.049934, Total Loss: 0.352569 ,lr:0.001000 
+[2020-02-01 19:17:23 train_model.py:125] INFO     epoch:4/30
+[2020-02-01 19:17:23 train_model.py:127] INFO     Step: 5500/45690, accuracy: 0.957031, cls loss: 0.166761, bbox loss: 0.045696,Landmark loss :0.058809,L2 loss: 0.049935, Total Loss: 0.298353 ,lr:0.001000 
+[2020-02-01 19:17:31 train_model.py:125] INFO     epoch:4/30
+[2020-02-01 19:17:31 train_model.py:127] INFO     Step: 5600/45690, accuracy: 0.984375, cls loss: 0.081502, bbox loss: 0.037351,Landmark loss :0.094753,L2 loss: 0.049929, Total Loss: 0.244859 ,lr:0.001000 
+[2020-02-01 19:17:38 train_model.py:125] INFO     epoch:4/30
+[2020-02-01 19:17:38 train_model.py:127] INFO     Step: 5700/45690, accuracy: 0.945312, cls loss: 0.223366, bbox loss: 0.040084,Landmark loss :0.062164,L2 loss: 0.049922, Total Loss: 0.355494 ,lr:0.001000 
+[2020-02-01 19:17:46 train_model.py:125] INFO     epoch:4/30
+[2020-02-01 19:17:46 train_model.py:127] INFO     Step: 5800/45690, accuracy: 0.957031, cls loss: 0.188028, bbox loss: 0.045594,Landmark loss :0.054569,L2 loss: 0.049915, Total Loss: 0.315309 ,lr:0.001000 
+[2020-02-01 19:17:53 train_model.py:125] INFO     epoch:4/30
+[2020-02-01 19:17:53 train_model.py:127] INFO     Step: 5900/45690, accuracy: 0.960938, cls loss: 0.168963, bbox loss: 0.037262,Landmark loss :0.052206,L2 loss: 0.049915, Total Loss: 0.289715 ,lr:0.001000 
+[2020-02-01 19:18:01 train_model.py:125] INFO     epoch:4/30
+[2020-02-01 19:18:01 train_model.py:127] INFO     Step: 6000/45690, accuracy: 0.968750, cls loss: 0.122100, bbox loss: 0.049091,Landmark loss :0.116579,L2 loss: 0.049907, Total Loss: 0.313132 ,lr:0.001000 
+[2020-02-01 19:18:09 train_model.py:125] INFO     epoch:5/30
+[2020-02-01 19:18:09 train_model.py:127] INFO     Step: 6100/45690, accuracy: 0.968750, cls loss: 0.176098, bbox loss: 0.045518,Landmark loss :0.101364,L2 loss: 0.049904, Total Loss: 0.350126 ,lr:0.001000 
+[2020-02-01 19:18:16 train_model.py:125] INFO     epoch:5/30
+[2020-02-01 19:18:16 train_model.py:127] INFO     Step: 6200/45690, accuracy: 0.929688, cls loss: 0.258485, bbox loss: 0.036123,Landmark loss :0.066969,L2 loss: 0.049900, Total Loss: 0.393415 ,lr:0.001000 
+[2020-02-01 19:18:24 train_model.py:125] INFO     epoch:5/30
+[2020-02-01 19:18:24 train_model.py:127] INFO     Step: 6300/45690, accuracy: 0.957031, cls loss: 0.177961, bbox loss: 0.041477,Landmark loss :0.061964,L2 loss: 0.049884, Total Loss: 0.310548 ,lr:0.001000 
+[2020-02-01 19:18:31 train_model.py:125] INFO     epoch:5/30
+[2020-02-01 19:18:31 train_model.py:127] INFO     Step: 6400/45690, accuracy: 0.964844, cls loss: 0.175606, bbox loss: 0.045811,Landmark loss :0.080132,L2 loss: 0.049881, Total Loss: 0.328525 ,lr:0.001000 
+[2020-02-01 19:18:39 train_model.py:125] INFO     epoch:5/30
+[2020-02-01 19:18:39 train_model.py:127] INFO     Step: 6500/45690, accuracy: 0.980469, cls loss: 0.101187, bbox loss: 0.033408,Landmark loss :0.053840,L2 loss: 0.049869, Total Loss: 0.221601 ,lr:0.001000 
+[2020-02-01 19:18:46 train_model.py:125] INFO     epoch:5/30
+[2020-02-01 19:18:46 train_model.py:127] INFO     Step: 6600/45690, accuracy: 0.964844, cls loss: 0.158014, bbox loss: 0.042863,Landmark loss :0.071273,L2 loss: 0.049867, Total Loss: 0.300586 ,lr:0.001000 
+[2020-02-01 19:18:54 train_model.py:125] INFO     epoch:5/30
+[2020-02-01 19:18:54 train_model.py:127] INFO     Step: 6700/45690, accuracy: 0.957031, cls loss: 0.195258, bbox loss: 0.036721,Landmark loss :0.053788,L2 loss: 0.049860, Total Loss: 0.317267 ,lr:0.001000 
+[2020-02-01 19:19:01 train_model.py:125] INFO     epoch:5/30
+[2020-02-01 19:19:01 train_model.py:127] INFO     Step: 6800/45690, accuracy: 0.953125, cls loss: 0.206364, bbox loss: 0.036122,Landmark loss :0.042081,L2 loss: 0.049857, Total Loss: 0.316362 ,lr:0.001000 
+[2020-02-01 19:19:09 train_model.py:125] INFO     epoch:5/30
+[2020-02-01 19:19:09 train_model.py:127] INFO     Step: 6900/45690, accuracy: 0.953125, cls loss: 0.169158, bbox loss: 0.041494,Landmark loss :0.052502,L2 loss: 0.049848, Total Loss: 0.292254 ,lr:0.001000 
+[2020-02-01 19:19:16 train_model.py:125] INFO     epoch:5/30
+[2020-02-01 19:19:16 train_model.py:127] INFO     Step: 7000/45690, accuracy: 0.949219, cls loss: 0.162195, bbox loss: 0.041523,Landmark loss :0.071220,L2 loss: 0.049838, Total Loss: 0.304015 ,lr:0.001000 
+[2020-02-01 19:19:24 train_model.py:125] INFO     epoch:5/30
+[2020-02-01 19:19:24 train_model.py:127] INFO     Step: 7100/45690, accuracy: 0.968750, cls loss: 0.179357, bbox loss: 0.036890,Landmark loss :0.054933,L2 loss: 0.049833, Total Loss: 0.302567 ,lr:0.001000 
+[2020-02-01 19:19:31 train_model.py:125] INFO     epoch:5/30
+[2020-02-01 19:19:31 train_model.py:127] INFO     Step: 7200/45690, accuracy: 0.968750, cls loss: 0.140134, bbox loss: 0.035558,Landmark loss :0.043258,L2 loss: 0.049821, Total Loss: 0.250992 ,lr:0.001000 
+[2020-02-01 19:19:39 train_model.py:125] INFO     epoch:5/30
+[2020-02-01 19:19:39 train_model.py:127] INFO     Step: 7300/45690, accuracy: 0.933594, cls loss: 0.202431, bbox loss: 0.036323,Landmark loss :0.049525,L2 loss: 0.049811, Total Loss: 0.319928 ,lr:0.001000 
+[2020-02-01 19:19:47 train_model.py:125] INFO     epoch:5/30
+[2020-02-01 19:19:47 train_model.py:127] INFO     Step: 7400/45690, accuracy: 0.968750, cls loss: 0.131965, bbox loss: 0.049554,Landmark loss :0.077027,L2 loss: 0.049800, Total Loss: 0.283570 ,lr:0.001000 
+[2020-02-01 19:19:54 train_model.py:125] INFO     epoch:5/30
+[2020-02-01 19:19:54 train_model.py:127] INFO     Step: 7500/45690, accuracy: 0.972656, cls loss: 0.154450, bbox loss: 0.034724,Landmark loss :0.047909,L2 loss: 0.049795, Total Loss: 0.269515 ,lr:0.001000 
+[2020-02-01 19:20:02 train_model.py:125] INFO     epoch:5/30
+[2020-02-01 19:20:02 train_model.py:127] INFO     Step: 7600/45690, accuracy: 0.960938, cls loss: 0.164171, bbox loss: 0.040094,Landmark loss :0.083189,L2 loss: 0.049785, Total Loss: 0.317192 ,lr:0.001000 
+[2020-02-01 19:20:09 train_model.py:125] INFO     epoch:6/30
+[2020-02-01 19:20:09 train_model.py:127] INFO     Step: 7700/45690, accuracy: 0.953125, cls loss: 0.223698, bbox loss: 0.040161,Landmark loss :0.064121,L2 loss: 0.049773, Total Loss: 0.357673 ,lr:0.001000 
+[2020-02-01 19:20:17 train_model.py:125] INFO     epoch:6/30
+[2020-02-01 19:20:17 train_model.py:127] INFO     Step: 7800/45690, accuracy: 0.960938, cls loss: 0.146349, bbox loss: 0.035188,Landmark loss :0.070126,L2 loss: 0.049764, Total Loss: 0.283833 ,lr:0.001000 
+[2020-02-01 19:20:25 train_model.py:125] INFO     epoch:6/30
+[2020-02-01 19:20:25 train_model.py:127] INFO     Step: 7900/45690, accuracy: 0.984375, cls loss: 0.120942, bbox loss: 0.038691,Landmark loss :0.069142,L2 loss: 0.049756, Total Loss: 0.259186 ,lr:0.001000 
+[2020-02-01 19:20:32 train_model.py:125] INFO     epoch:6/30
+[2020-02-01 19:20:32 train_model.py:127] INFO     Step: 8000/45690, accuracy: 0.964844, cls loss: 0.132264, bbox loss: 0.041556,Landmark loss :0.080341,L2 loss: 0.049747, Total Loss: 0.283129 ,lr:0.001000 
+[2020-02-01 19:20:39 train_model.py:125] INFO     epoch:6/30
+[2020-02-01 19:20:39 train_model.py:127] INFO     Step: 8100/45690, accuracy: 0.968750, cls loss: 0.135613, bbox loss: 0.043220,Landmark loss :0.062038,L2 loss: 0.049730, Total Loss: 0.268991 ,lr:0.001000 
+[2020-02-01 19:20:47 train_model.py:125] INFO     epoch:6/30
+[2020-02-01 19:20:47 train_model.py:127] INFO     Step: 8200/45690, accuracy: 0.972656, cls loss: 0.136329, bbox loss: 0.048210,Landmark loss :0.038171,L2 loss: 0.049727, Total Loss: 0.248332 ,lr:0.001000 
+[2020-02-01 19:20:55 train_model.py:125] INFO     epoch:6/30
+[2020-02-01 19:20:55 train_model.py:127] INFO     Step: 8300/45690, accuracy: 0.976562, cls loss: 0.171150, bbox loss: 0.045676,Landmark loss :0.055845,L2 loss: 0.049719, Total Loss: 0.299552 ,lr:0.001000 
+[2020-02-01 19:21:02 train_model.py:125] INFO     epoch:6/30
+[2020-02-01 19:21:02 train_model.py:127] INFO     Step: 8400/45690, accuracy: 0.972656, cls loss: 0.100258, bbox loss: 0.036950,Landmark loss :0.060549,L2 loss: 0.049712, Total Loss: 0.228994 ,lr:0.001000 
+[2020-02-01 19:21:10 train_model.py:125] INFO     epoch:6/30
+[2020-02-01 19:21:10 train_model.py:127] INFO     Step: 8500/45690, accuracy: 0.992188, cls loss: 0.080284, bbox loss: 0.045483,Landmark loss :0.062348,L2 loss: 0.049699, Total Loss: 0.215071 ,lr:0.001000 
+[2020-02-01 19:21:17 train_model.py:125] INFO     epoch:6/30
+[2020-02-01 19:21:17 train_model.py:127] INFO     Step: 8600/45690, accuracy: 0.964844, cls loss: 0.223288, bbox loss: 0.046346,Landmark loss :0.041329,L2 loss: 0.049688, Total Loss: 0.337477 ,lr:0.001000 
+[2020-02-01 19:21:25 train_model.py:125] INFO     epoch:6/30
+[2020-02-01 19:21:25 train_model.py:127] INFO     Step: 8700/45690, accuracy: 0.976562, cls loss: 0.123744, bbox loss: 0.036806,Landmark loss :0.056896,L2 loss: 0.049682, Total Loss: 0.248726 ,lr:0.001000 
+[2020-02-01 19:21:33 train_model.py:125] INFO     epoch:6/30
+[2020-02-01 19:21:33 train_model.py:127] INFO     Step: 8800/45690, accuracy: 0.957031, cls loss: 0.186781, bbox loss: 0.033540,Landmark loss :0.046102,L2 loss: 0.049675, Total Loss: 0.299328 ,lr:0.001000 
+[2020-02-01 19:21:40 train_model.py:125] INFO     epoch:6/30
+[2020-02-01 19:21:40 train_model.py:127] INFO     Step: 8900/45690, accuracy: 0.984375, cls loss: 0.065093, bbox loss: 0.026340,Landmark loss :0.054489,L2 loss: 0.049672, Total Loss: 0.182425 ,lr:0.001000 
+[2020-02-01 19:21:48 train_model.py:125] INFO     epoch:6/30
+[2020-02-01 19:21:48 train_model.py:127] INFO     Step: 9000/45690, accuracy: 0.988281, cls loss: 0.091808, bbox loss: 0.059417,Landmark loss :0.051125,L2 loss: 0.049668, Total Loss: 0.222309 ,lr:0.001000 
+[2020-02-01 19:21:56 train_model.py:125] INFO     epoch:6/30
+[2020-02-01 19:21:56 train_model.py:127] INFO     Step: 9100/45690, accuracy: 0.980469, cls loss: 0.129754, bbox loss: 0.037066,Landmark loss :0.068479,L2 loss: 0.049660, Total Loss: 0.266426 ,lr:0.001000 
+[2020-02-01 19:22:03 train_model.py:125] INFO     epoch:7/30
+[2020-02-01 19:22:03 train_model.py:127] INFO     Step: 9200/45690, accuracy: 0.957031, cls loss: 0.197111, bbox loss: 0.044153,Landmark loss :0.062859,L2 loss: 0.049658, Total Loss: 0.331705 ,lr:0.000100 
+[2020-02-01 19:22:11 train_model.py:125] INFO     epoch:7/30
+[2020-02-01 19:22:11 train_model.py:127] INFO     Step: 9300/45690, accuracy: 0.972656, cls loss: 0.144717, bbox loss: 0.035203,Landmark loss :0.055431,L2 loss: 0.049658, Total Loss: 0.267407 ,lr:0.000100 
+[2020-02-01 19:22:18 train_model.py:125] INFO     epoch:7/30
+[2020-02-01 19:22:18 train_model.py:127] INFO     Step: 9400/45690, accuracy: 0.988281, cls loss: 0.060802, bbox loss: 0.034707,Landmark loss :0.081663,L2 loss: 0.049657, Total Loss: 0.209475 ,lr:0.000100 
+[2020-02-01 19:22:26 train_model.py:125] INFO     epoch:7/30
+[2020-02-01 19:22:26 train_model.py:127] INFO     Step: 9500/45690, accuracy: 0.992188, cls loss: 0.090590, bbox loss: 0.036361,Landmark loss :0.045311,L2 loss: 0.049656, Total Loss: 0.203737 ,lr:0.000100 
+[2020-02-01 19:22:33 train_model.py:125] INFO     epoch:7/30
+[2020-02-01 19:22:33 train_model.py:127] INFO     Step: 9600/45690, accuracy: 0.957031, cls loss: 0.155386, bbox loss: 0.044410,Landmark loss :0.076133,L2 loss: 0.049655, Total Loss: 0.303379 ,lr:0.000100 
+[2020-02-01 19:22:41 train_model.py:125] INFO     epoch:7/30
+[2020-02-01 19:22:41 train_model.py:127] INFO     Step: 9700/45690, accuracy: 0.988281, cls loss: 0.077168, bbox loss: 0.029386,Landmark loss :0.057035,L2 loss: 0.049655, Total Loss: 0.198551 ,lr:0.000100 
+[2020-02-01 19:22:48 train_model.py:125] INFO     epoch:7/30
+[2020-02-01 19:22:48 train_model.py:127] INFO     Step: 9800/45690, accuracy: 0.992188, cls loss: 0.065507, bbox loss: 0.053377,Landmark loss :0.046467,L2 loss: 0.049654, Total Loss: 0.188317 ,lr:0.000100 
+[2020-02-01 19:22:56 train_model.py:125] INFO     epoch:7/30
+[2020-02-01 19:22:56 train_model.py:127] INFO     Step: 9900/45690, accuracy: 0.984375, cls loss: 0.120002, bbox loss: 0.045677,Landmark loss :0.058132,L2 loss: 0.049654, Total Loss: 0.250627 ,lr:0.000100 
+[2020-02-01 19:23:03 train_model.py:125] INFO     epoch:7/30
+[2020-02-01 19:23:03 train_model.py:127] INFO     Step: 10000/45690, accuracy: 0.976562, cls loss: 0.135404, bbox loss: 0.038642,Landmark loss :0.068760,L2 loss: 0.049653, Total Loss: 0.273138 ,lr:0.000100 
+[2020-02-01 19:23:11 train_model.py:125] INFO     epoch:7/30
+[2020-02-01 19:23:11 train_model.py:127] INFO     Step: 10100/45690, accuracy: 0.980469, cls loss: 0.103844, bbox loss: 0.044275,Landmark loss :0.059059,L2 loss: 0.049652, Total Loss: 0.234692 ,lr:0.000100 
+[2020-02-01 19:23:19 train_model.py:125] INFO     epoch:7/30
+[2020-02-01 19:23:19 train_model.py:127] INFO     Step: 10200/45690, accuracy: 0.984375, cls loss: 0.064552, bbox loss: 0.041331,Landmark loss :0.060750,L2 loss: 0.049651, Total Loss: 0.195618 ,lr:0.000100 
+[2020-02-01 19:23:26 train_model.py:125] INFO     epoch:7/30
+[2020-02-01 19:23:26 train_model.py:127] INFO     Step: 10300/45690, accuracy: 0.972656, cls loss: 0.105971, bbox loss: 0.042323,Landmark loss :0.061270,L2 loss: 0.049650, Total Loss: 0.238052 ,lr:0.000100 
+[2020-02-01 19:23:33 train_model.py:125] INFO     epoch:7/30
+[2020-02-01 19:23:33 train_model.py:127] INFO     Step: 10400/45690, accuracy: 0.984375, cls loss: 0.071427, bbox loss: 0.035113,Landmark loss :0.043668,L2 loss: 0.049649, Total Loss: 0.182301 ,lr:0.000100 
+[2020-02-01 19:23:40 train_model.py:125] INFO     epoch:7/30
+[2020-02-01 19:23:40 train_model.py:127] INFO     Step: 10500/45690, accuracy: 0.976562, cls loss: 0.120620, bbox loss: 0.045312,Landmark loss :0.074771,L2 loss: 0.049648, Total Loss: 0.267695 ,lr:0.000100 
+[2020-02-01 19:23:48 train_model.py:125] INFO     epoch:7/30
+[2020-02-01 19:23:48 train_model.py:127] INFO     Step: 10600/45690, accuracy: 0.976562, cls loss: 0.154838, bbox loss: 0.034668,Landmark loss :0.067141,L2 loss: 0.049648, Total Loss: 0.288961 ,lr:0.000100 
+[2020-02-01 19:23:55 train_model.py:125] INFO     epoch:8/30
+[2020-02-01 19:23:55 train_model.py:127] INFO     Step: 10700/45690, accuracy: 0.968750, cls loss: 0.130804, bbox loss: 0.038256,Landmark loss :0.051590,L2 loss: 0.049646, Total Loss: 0.251168 ,lr:0.000100 
+[2020-02-01 19:24:03 train_model.py:125] INFO     epoch:8/30
+[2020-02-01 19:24:03 train_model.py:127] INFO     Step: 10800/45690, accuracy: 0.988281, cls loss: 0.100736, bbox loss: 0.041973,Landmark loss :0.073025,L2 loss: 0.049645, Total Loss: 0.244393 ,lr:0.000100 
+[2020-02-01 19:24:10 train_model.py:125] INFO     epoch:8/30
+[2020-02-01 19:24:10 train_model.py:127] INFO     Step: 10900/45690, accuracy: 0.968750, cls loss: 0.138817, bbox loss: 0.032144,Landmark loss :0.041942,L2 loss: 0.049644, Total Loss: 0.246475 ,lr:0.000100 
+[2020-02-01 19:24:18 train_model.py:125] INFO     epoch:8/30
+[2020-02-01 19:24:18 train_model.py:127] INFO     Step: 11000/45690, accuracy: 0.972656, cls loss: 0.142202, bbox loss: 0.034334,Landmark loss :0.050925,L2 loss: 0.049643, Total Loss: 0.259936 ,lr:0.000100 
+[2020-02-01 19:24:26 train_model.py:125] INFO     epoch:8/30
+[2020-02-01 19:24:26 train_model.py:127] INFO     Step: 11100/45690, accuracy: 0.972656, cls loss: 0.090361, bbox loss: 0.043935,Landmark loss :0.058306,L2 loss: 0.049642, Total Loss: 0.220277 ,lr:0.000100 
+[2020-02-01 19:24:33 train_model.py:125] INFO     epoch:8/30
+[2020-02-01 19:24:33 train_model.py:127] INFO     Step: 11200/45690, accuracy: 0.972656, cls loss: 0.159916, bbox loss: 0.036487,Landmark loss :0.078013,L2 loss: 0.049641, Total Loss: 0.305813 ,lr:0.000100 
+[2020-02-01 19:24:41 train_model.py:125] INFO     epoch:8/30
+[2020-02-01 19:24:41 train_model.py:127] INFO     Step: 11300/45690, accuracy: 0.992188, cls loss: 0.064252, bbox loss: 0.035604,Landmark loss :0.057621,L2 loss: 0.049640, Total Loss: 0.189315 ,lr:0.000100 
+[2020-02-01 19:24:48 train_model.py:125] INFO     epoch:8/30
+[2020-02-01 19:24:48 train_model.py:127] INFO     Step: 11400/45690, accuracy: 0.972656, cls loss: 0.125966, bbox loss: 0.042291,Landmark loss :0.067415,L2 loss: 0.049638, Total Loss: 0.264165 ,lr:0.000100 
+[2020-02-01 19:24:56 train_model.py:125] INFO     epoch:8/30
+[2020-02-01 19:24:56 train_model.py:127] INFO     Step: 11500/45690, accuracy: 0.972656, cls loss: 0.134886, bbox loss: 0.046731,Landmark loss :0.063154,L2 loss: 0.049637, Total Loss: 0.271043 ,lr:0.000100 
+[2020-02-01 19:25:04 train_model.py:125] INFO     epoch:8/30
+[2020-02-01 19:25:04 train_model.py:127] INFO     Step: 11600/45690, accuracy: 0.976562, cls loss: 0.124179, bbox loss: 0.039634,Landmark loss :0.079260,L2 loss: 0.049636, Total Loss: 0.272892 ,lr:0.000100 
+[2020-02-01 19:25:11 train_model.py:125] INFO     epoch:8/30
+[2020-02-01 19:25:11 train_model.py:127] INFO     Step: 11700/45690, accuracy: 0.984375, cls loss: 0.079204, bbox loss: 0.034494,Landmark loss :0.057044,L2 loss: 0.049635, Total Loss: 0.203129 ,lr:0.000100 
+[2020-02-01 19:25:19 train_model.py:125] INFO     epoch:8/30
+[2020-02-01 19:25:19 train_model.py:127] INFO     Step: 11800/45690, accuracy: 0.972656, cls loss: 0.114940, bbox loss: 0.037903,Landmark loss :0.047899,L2 loss: 0.049634, Total Loss: 0.231425 ,lr:0.000100 
+[2020-02-01 19:25:26 train_model.py:125] INFO     epoch:8/30
+[2020-02-01 19:25:26 train_model.py:127] INFO     Step: 11900/45690, accuracy: 0.980469, cls loss: 0.130128, bbox loss: 0.041832,Landmark loss :0.059230,L2 loss: 0.049634, Total Loss: 0.259908 ,lr:0.000100 
+[2020-02-01 19:25:34 train_model.py:125] INFO     epoch:8/30
+[2020-02-01 19:25:34 train_model.py:127] INFO     Step: 12000/45690, accuracy: 0.972656, cls loss: 0.143344, bbox loss: 0.044995,Landmark loss :0.042805,L2 loss: 0.049633, Total Loss: 0.258279 ,lr:0.000100 
+[2020-02-01 19:25:41 train_model.py:125] INFO     epoch:8/30
+[2020-02-01 19:25:41 train_model.py:127] INFO     Step: 12100/45690, accuracy: 0.980469, cls loss: 0.091927, bbox loss: 0.041076,Landmark loss :0.063694,L2 loss: 0.049631, Total Loss: 0.225791 ,lr:0.000100 
+[2020-02-01 19:25:49 train_model.py:125] INFO     epoch:9/30
+[2020-02-01 19:25:49 train_model.py:127] INFO     Step: 12200/45690, accuracy: 0.957031, cls loss: 0.160252, bbox loss: 0.043220,Landmark loss :0.057812,L2 loss: 0.049630, Total Loss: 0.289305 ,lr:0.000100 
+[2020-02-01 19:25:56 train_model.py:125] INFO     epoch:9/30
+[2020-02-01 19:25:56 train_model.py:127] INFO     Step: 12300/45690, accuracy: 0.960938, cls loss: 0.156069, bbox loss: 0.038715,Landmark loss :0.058302,L2 loss: 0.049629, Total Loss: 0.283358 ,lr:0.000100 
+[2020-02-01 19:26:04 train_model.py:125] INFO     epoch:9/30
+[2020-02-01 19:26:04 train_model.py:127] INFO     Step: 12400/45690, accuracy: 0.972656, cls loss: 0.076686, bbox loss: 0.037803,Landmark loss :0.062230,L2 loss: 0.049628, Total Loss: 0.207445 ,lr:0.000100 
+[2020-02-01 19:26:11 train_model.py:125] INFO     epoch:9/30
+[2020-02-01 19:26:11 train_model.py:127] INFO     Step: 12500/45690, accuracy: 0.984375, cls loss: 0.105186, bbox loss: 0.041781,Landmark loss :0.067313,L2 loss: 0.049626, Total Loss: 0.243016 ,lr:0.000100 
+[2020-02-01 19:26:19 train_model.py:125] INFO     epoch:9/30
+[2020-02-01 19:26:19 train_model.py:127] INFO     Step: 12600/45690, accuracy: 0.992188, cls loss: 0.070503, bbox loss: 0.035570,Landmark loss :0.042772,L2 loss: 0.049626, Total Loss: 0.180687 ,lr:0.000100 
+[2020-02-01 19:26:26 train_model.py:125] INFO     epoch:9/30
+[2020-02-01 19:26:26 train_model.py:127] INFO     Step: 12700/45690, accuracy: 0.988281, cls loss: 0.090965, bbox loss: 0.032415,Landmark loss :0.061056,L2 loss: 0.049624, Total Loss: 0.217853 ,lr:0.000100 
+[2020-02-01 19:26:34 train_model.py:125] INFO     epoch:9/30
+[2020-02-01 19:26:34 train_model.py:127] INFO     Step: 12800/45690, accuracy: 0.980469, cls loss: 0.129957, bbox loss: 0.034953,Landmark loss :0.058037,L2 loss: 0.049624, Total Loss: 0.255094 ,lr:0.000100 
+[2020-02-01 19:26:41 train_model.py:125] INFO     epoch:9/30
+[2020-02-01 19:26:41 train_model.py:127] INFO     Step: 12900/45690, accuracy: 0.964844, cls loss: 0.141167, bbox loss: 0.036322,Landmark loss :0.058503,L2 loss: 0.049622, Total Loss: 0.267453 ,lr:0.000100 
+[2020-02-01 19:26:49 train_model.py:125] INFO     epoch:9/30
+[2020-02-01 19:26:49 train_model.py:127] INFO     Step: 13000/45690, accuracy: 0.988281, cls loss: 0.097706, bbox loss: 0.035961,Landmark loss :0.050328,L2 loss: 0.049621, Total Loss: 0.215635 ,lr:0.000100 
+[2020-02-01 19:26:56 train_model.py:125] INFO     epoch:9/30
+[2020-02-01 19:26:56 train_model.py:127] INFO     Step: 13100/45690, accuracy: 0.976562, cls loss: 0.127337, bbox loss: 0.035863,Landmark loss :0.063651,L2 loss: 0.049620, Total Loss: 0.258539 ,lr:0.000100 
+[2020-02-01 19:27:04 train_model.py:125] INFO     epoch:9/30
+[2020-02-01 19:27:04 train_model.py:127] INFO     Step: 13200/45690, accuracy: 0.980469, cls loss: 0.080780, bbox loss: 0.051175,Landmark loss :0.054325,L2 loss: 0.049618, Total Loss: 0.210311 ,lr:0.000100 
+[2020-02-01 19:27:11 train_model.py:125] INFO     epoch:9/30
+[2020-02-01 19:27:11 train_model.py:127] INFO     Step: 13300/45690, accuracy: 0.984375, cls loss: 0.098792, bbox loss: 0.043173,Landmark loss :0.078268,L2 loss: 0.049617, Total Loss: 0.248264 ,lr:0.000100 
+[2020-02-01 19:27:18 train_model.py:125] INFO     epoch:9/30
+[2020-02-01 19:27:18 train_model.py:127] INFO     Step: 13400/45690, accuracy: 0.968750, cls loss: 0.127357, bbox loss: 0.035435,Landmark loss :0.062739,L2 loss: 0.049616, Total Loss: 0.257429 ,lr:0.000100 
+[2020-02-01 19:27:26 train_model.py:125] INFO     epoch:9/30
+[2020-02-01 19:27:26 train_model.py:127] INFO     Step: 13500/45690, accuracy: 0.949219, cls loss: 0.198951, bbox loss: 0.044539,Landmark loss :0.086994,L2 loss: 0.049615, Total Loss: 0.357830 ,lr:0.000100 
+[2020-02-01 19:27:33 train_model.py:125] INFO     epoch:9/30
+[2020-02-01 19:27:33 train_model.py:127] INFO     Step: 13600/45690, accuracy: 0.988281, cls loss: 0.074861, bbox loss: 0.047839,Landmark loss :0.051695,L2 loss: 0.049614, Total Loss: 0.200090 ,lr:0.000100 
+[2020-02-01 19:27:41 train_model.py:125] INFO     epoch:9/30
+[2020-02-01 19:27:41 train_model.py:127] INFO     Step: 13700/45690, accuracy: 0.976562, cls loss: 0.131313, bbox loss: 0.042539,Landmark loss :0.051766,L2 loss: 0.049613, Total Loss: 0.253961 ,lr:0.000100 
+[2020-02-01 19:27:48 train_model.py:125] INFO     epoch:10/30
+[2020-02-01 19:27:48 train_model.py:127] INFO     Step: 13800/45690, accuracy: 0.984375, cls loss: 0.134470, bbox loss: 0.037773,Landmark loss :0.040454,L2 loss: 0.049611, Total Loss: 0.243421 ,lr:0.000100 
+[2020-02-01 19:27:56 train_model.py:125] INFO     epoch:10/30
+[2020-02-01 19:27:56 train_model.py:127] INFO     Step: 13900/45690, accuracy: 0.968750, cls loss: 0.214311, bbox loss: 0.032435,Landmark loss :0.039821,L2 loss: 0.049610, Total Loss: 0.319960 ,lr:0.000100 
+[2020-02-01 19:28:03 train_model.py:125] INFO     epoch:10/30
+[2020-02-01 19:28:03 train_model.py:127] INFO     Step: 14000/45690, accuracy: 0.988281, cls loss: 0.074544, bbox loss: 0.031670,Landmark loss :0.076256,L2 loss: 0.049609, Total Loss: 0.216244 ,lr:0.000100 
+[2020-02-01 19:28:11 train_model.py:125] INFO     epoch:10/30
+[2020-02-01 19:28:11 train_model.py:127] INFO     Step: 14100/45690, accuracy: 0.984375, cls loss: 0.084629, bbox loss: 0.039885,Landmark loss :0.047595,L2 loss: 0.049608, Total Loss: 0.201774 ,lr:0.000100 
+[2020-02-01 19:28:19 train_model.py:125] INFO     epoch:10/30
+[2020-02-01 19:28:19 train_model.py:127] INFO     Step: 14200/45690, accuracy: 0.980469, cls loss: 0.092943, bbox loss: 0.041643,Landmark loss :0.063233,L2 loss: 0.049607, Total Loss: 0.226605 ,lr:0.000100 
+[2020-02-01 19:28:26 train_model.py:125] INFO     epoch:10/30
+[2020-02-01 19:28:26 train_model.py:127] INFO     Step: 14300/45690, accuracy: 0.988281, cls loss: 0.067434, bbox loss: 0.045794,Landmark loss :0.042964,L2 loss: 0.049606, Total Loss: 0.182901 ,lr:0.000100 
+[2020-02-01 19:28:34 train_model.py:125] INFO     epoch:10/30
+[2020-02-01 19:28:34 train_model.py:127] INFO     Step: 14400/45690, accuracy: 0.972656, cls loss: 0.162949, bbox loss: 0.036599,Landmark loss :0.076311,L2 loss: 0.049605, Total Loss: 0.307164 ,lr:0.000100 
+[2020-02-01 19:28:41 train_model.py:125] INFO     epoch:10/30
+[2020-02-01 19:28:41 train_model.py:127] INFO     Step: 14500/45690, accuracy: 0.976562, cls loss: 0.134761, bbox loss: 0.038141,Landmark loss :0.049474,L2 loss: 0.049603, Total Loss: 0.252909 ,lr:0.000100 
+[2020-02-01 19:28:49 train_model.py:125] INFO     epoch:10/30
+[2020-02-01 19:28:49 train_model.py:127] INFO     Step: 14600/45690, accuracy: 0.980469, cls loss: 0.143615, bbox loss: 0.039650,Landmark loss :0.095174,L2 loss: 0.049602, Total Loss: 0.308216 ,lr:0.000100 
+[2020-02-01 19:28:56 train_model.py:125] INFO     epoch:10/30
+[2020-02-01 19:28:56 train_model.py:127] INFO     Step: 14700/45690, accuracy: 0.972656, cls loss: 0.126261, bbox loss: 0.032613,Landmark loss :0.070483,L2 loss: 0.049601, Total Loss: 0.262652 ,lr:0.000100 
+[2020-02-01 19:29:04 train_model.py:125] INFO     epoch:10/30
+[2020-02-01 19:29:04 train_model.py:127] INFO     Step: 14800/45690, accuracy: 0.988281, cls loss: 0.091001, bbox loss: 0.037684,Landmark loss :0.061302,L2 loss: 0.049600, Total Loss: 0.220745 ,lr:0.000100 
+[2020-02-01 19:29:11 train_model.py:125] INFO     epoch:10/30
+[2020-02-01 19:29:11 train_model.py:127] INFO     Step: 14900/45690, accuracy: 0.968750, cls loss: 0.132853, bbox loss: 0.036492,Landmark loss :0.046044,L2 loss: 0.049599, Total Loss: 0.246741 ,lr:0.000100 
+[2020-02-01 19:29:19 train_model.py:125] INFO     epoch:10/30
+[2020-02-01 19:29:19 train_model.py:127] INFO     Step: 15000/45690, accuracy: 0.996094, cls loss: 0.052921, bbox loss: 0.046812,Landmark loss :0.043139,L2 loss: 0.049597, Total Loss: 0.169063 ,lr:0.000100 
+[2020-02-01 19:29:27 train_model.py:125] INFO     epoch:10/30
+[2020-02-01 19:29:27 train_model.py:127] INFO     Step: 15100/45690, accuracy: 0.980469, cls loss: 0.118997, bbox loss: 0.041756,Landmark loss :0.073489,L2 loss: 0.049596, Total Loss: 0.262960 ,lr:0.000100 
+[2020-02-01 19:29:34 train_model.py:125] INFO     epoch:10/30
+[2020-02-01 19:29:34 train_model.py:127] INFO     Step: 15200/45690, accuracy: 0.984375, cls loss: 0.079380, bbox loss: 0.038409,Landmark loss :0.063102,L2 loss: 0.049595, Total Loss: 0.211281 ,lr:0.000100 
+[2020-02-01 19:29:42 train_model.py:125] INFO     epoch:11/30
+[2020-02-01 19:29:42 train_model.py:127] INFO     Step: 15300/45690, accuracy: 0.964844, cls loss: 0.136856, bbox loss: 0.034174,Landmark loss :0.059878,L2 loss: 0.049594, Total Loss: 0.263415 ,lr:0.000100 
+[2020-02-01 19:29:49 train_model.py:125] INFO     epoch:11/30
+[2020-02-01 19:29:49 train_model.py:127] INFO     Step: 15400/45690, accuracy: 0.968750, cls loss: 0.144777, bbox loss: 0.040536,Landmark loss :0.057485,L2 loss: 0.049592, Total Loss: 0.272122 ,lr:0.000100 
+[2020-02-01 19:29:57 train_model.py:125] INFO     epoch:11/30
+[2020-02-01 19:29:57 train_model.py:127] INFO     Step: 15500/45690, accuracy: 0.972656, cls loss: 0.082727, bbox loss: 0.031274,Landmark loss :0.058539,L2 loss: 0.049591, Total Loss: 0.206494 ,lr:0.000100 
+[2020-02-01 19:30:04 train_model.py:125] INFO     epoch:11/30
+[2020-02-01 19:30:04 train_model.py:127] INFO     Step: 15600/45690, accuracy: 0.980469, cls loss: 0.090395, bbox loss: 0.041930,Landmark loss :0.061457,L2 loss: 0.049590, Total Loss: 0.222407 ,lr:0.000100 
+[2020-02-01 19:30:12 train_model.py:125] INFO     epoch:11/30
+[2020-02-01 19:30:12 train_model.py:127] INFO     Step: 15700/45690, accuracy: 0.988281, cls loss: 0.093754, bbox loss: 0.036432,Landmark loss :0.095363,L2 loss: 0.049589, Total Loss: 0.256922 ,lr:0.000100 
+[2020-02-01 19:30:19 train_model.py:125] INFO     epoch:11/30
+[2020-02-01 19:30:19 train_model.py:127] INFO     Step: 15800/45690, accuracy: 0.980469, cls loss: 0.106573, bbox loss: 0.038292,Landmark loss :0.055750,L2 loss: 0.049588, Total Loss: 0.231057 ,lr:0.000100 
+[2020-02-01 19:30:27 train_model.py:125] INFO     epoch:11/30
+[2020-02-01 19:30:27 train_model.py:127] INFO     Step: 15900/45690, accuracy: 0.992188, cls loss: 0.088133, bbox loss: 0.036138,Landmark loss :0.048940,L2 loss: 0.049586, Total Loss: 0.204727 ,lr:0.000100 
+[2020-02-01 19:30:34 train_model.py:125] INFO     epoch:11/30
+[2020-02-01 19:30:34 train_model.py:127] INFO     Step: 16000/45690, accuracy: 0.968750, cls loss: 0.157896, bbox loss: 0.032023,Landmark loss :0.044579,L2 loss: 0.049585, Total Loss: 0.268071 ,lr:0.000100 
+[2020-02-01 19:30:42 train_model.py:125] INFO     epoch:11/30
+[2020-02-01 19:30:42 train_model.py:127] INFO     Step: 16100/45690, accuracy: 0.976562, cls loss: 0.112407, bbox loss: 0.034881,Landmark loss :0.062586,L2 loss: 0.049584, Total Loss: 0.242016 ,lr:0.000100 
+[2020-02-01 19:30:50 train_model.py:125] INFO     epoch:11/30
+[2020-02-01 19:30:50 train_model.py:127] INFO     Step: 16200/45690, accuracy: 0.980469, cls loss: 0.096593, bbox loss: 0.044754,Landmark loss :0.071546,L2 loss: 0.049583, Total Loss: 0.240098 ,lr:0.000100 
+[2020-02-01 19:30:57 train_model.py:125] INFO     epoch:11/30
+[2020-02-01 19:30:57 train_model.py:127] INFO     Step: 16300/45690, accuracy: 0.980469, cls loss: 0.076444, bbox loss: 0.027728,Landmark loss :0.058373,L2 loss: 0.049581, Total Loss: 0.198262 ,lr:0.000100 
+[2020-02-01 19:31:05 train_model.py:125] INFO     epoch:11/30
+[2020-02-01 19:31:05 train_model.py:127] INFO     Step: 16400/45690, accuracy: 0.976562, cls loss: 0.085239, bbox loss: 0.041418,Landmark loss :0.035323,L2 loss: 0.049580, Total Loss: 0.190852 ,lr:0.000100 
+[2020-02-01 19:31:12 train_model.py:125] INFO     epoch:11/30
+[2020-02-01 19:31:12 train_model.py:127] INFO     Step: 16500/45690, accuracy: 0.976562, cls loss: 0.106075, bbox loss: 0.046577,Landmark loss :0.074438,L2 loss: 0.049579, Total Loss: 0.253380 ,lr:0.000100 
+[2020-02-01 19:31:19 train_model.py:125] INFO     epoch:11/30
+[2020-02-01 19:31:19 train_model.py:127] INFO     Step: 16600/45690, accuracy: 0.964844, cls loss: 0.182256, bbox loss: 0.042404,Landmark loss :0.056258,L2 loss: 0.049578, Total Loss: 0.309294 ,lr:0.000100 
+[2020-02-01 19:31:27 train_model.py:125] INFO     epoch:11/30
+[2020-02-01 19:31:27 train_model.py:127] INFO     Step: 16700/45690, accuracy: 0.980469, cls loss: 0.096577, bbox loss: 0.028786,Landmark loss :0.065483,L2 loss: 0.049576, Total Loss: 0.226029 ,lr:0.000100 
+[2020-02-01 19:31:34 train_model.py:125] INFO     epoch:12/30
+[2020-02-01 19:31:34 train_model.py:127] INFO     Step: 16800/45690, accuracy: 0.976562, cls loss: 0.129132, bbox loss: 0.033094,Landmark loss :0.073554,L2 loss: 0.049575, Total Loss: 0.268808 ,lr:0.000100 
+[2020-02-01 19:31:42 train_model.py:125] INFO     epoch:12/30
+[2020-02-01 19:31:42 train_model.py:127] INFO     Step: 16900/45690, accuracy: 0.976562, cls loss: 0.115576, bbox loss: 0.032443,Landmark loss :0.041085,L2 loss: 0.049574, Total Loss: 0.222456 ,lr:0.000100 
+[2020-02-01 19:31:49 train_model.py:125] INFO     epoch:12/30
+[2020-02-01 19:31:49 train_model.py:127] INFO     Step: 17000/45690, accuracy: 0.992188, cls loss: 0.076323, bbox loss: 0.043651,Landmark loss :0.076049,L2 loss: 0.049573, Total Loss: 0.223771 ,lr:0.000100 
+[2020-02-01 19:31:57 train_model.py:125] INFO     epoch:12/30
+[2020-02-01 19:31:57 train_model.py:127] INFO     Step: 17100/45690, accuracy: 0.992188, cls loss: 0.052510, bbox loss: 0.034352,Landmark loss :0.073787,L2 loss: 0.049572, Total Loss: 0.193045 ,lr:0.000100 
+[2020-02-01 19:32:04 train_model.py:125] INFO     epoch:12/30
+[2020-02-01 19:32:04 train_model.py:127] INFO     Step: 17200/45690, accuracy: 0.988281, cls loss: 0.072052, bbox loss: 0.043672,Landmark loss :0.055834,L2 loss: 0.049570, Total Loss: 0.199291 ,lr:0.000100 
+[2020-02-01 19:32:12 train_model.py:125] INFO     epoch:12/30
+[2020-02-01 19:32:12 train_model.py:127] INFO     Step: 17300/45690, accuracy: 0.988281, cls loss: 0.065364, bbox loss: 0.033227,Landmark loss :0.038251,L2 loss: 0.049569, Total Loss: 0.169798 ,lr:0.000100 
+[2020-02-01 19:32:19 train_model.py:125] INFO     epoch:12/30
+[2020-02-01 19:32:19 train_model.py:127] INFO     Step: 17400/45690, accuracy: 0.980469, cls loss: 0.118385, bbox loss: 0.042453,Landmark loss :0.046194,L2 loss: 0.049567, Total Loss: 0.235373 ,lr:0.000100 
+[2020-02-01 19:32:26 train_model.py:125] INFO     epoch:12/30
+[2020-02-01 19:32:26 train_model.py:127] INFO     Step: 17500/45690, accuracy: 0.964844, cls loss: 0.136543, bbox loss: 0.033587,Landmark loss :0.063588,L2 loss: 0.049566, Total Loss: 0.266491 ,lr:0.000100 
+[2020-02-01 19:32:34 train_model.py:125] INFO     epoch:12/30
+[2020-02-01 19:32:34 train_model.py:127] INFO     Step: 17600/45690, accuracy: 0.972656, cls loss: 0.119522, bbox loss: 0.040706,Landmark loss :0.044877,L2 loss: 0.049565, Total Loss: 0.234317 ,lr:0.000100 
+[2020-02-01 19:32:41 train_model.py:125] INFO     epoch:12/30
+[2020-02-01 19:32:41 train_model.py:127] INFO     Step: 17700/45690, accuracy: 0.972656, cls loss: 0.122534, bbox loss: 0.037193,Landmark loss :0.050143,L2 loss: 0.049564, Total Loss: 0.240838 ,lr:0.000100 
+[2020-02-01 19:32:49 train_model.py:125] INFO     epoch:12/30
+[2020-02-01 19:32:49 train_model.py:127] INFO     Step: 17800/45690, accuracy: 0.992188, cls loss: 0.054844, bbox loss: 0.037055,Landmark loss :0.045544,L2 loss: 0.049563, Total Loss: 0.168479 ,lr:0.000100 
+[2020-02-01 19:32:56 train_model.py:125] INFO     epoch:12/30
+[2020-02-01 19:32:56 train_model.py:127] INFO     Step: 17900/45690, accuracy: 0.980469, cls loss: 0.112433, bbox loss: 0.028071,Landmark loss :0.074726,L2 loss: 0.049562, Total Loss: 0.250757 ,lr:0.000100 
+[2020-02-01 19:33:04 train_model.py:125] INFO     epoch:12/30
+[2020-02-01 19:33:04 train_model.py:127] INFO     Step: 18000/45690, accuracy: 0.964844, cls loss: 0.177326, bbox loss: 0.041469,Landmark loss :0.052150,L2 loss: 0.049561, Total Loss: 0.299772 ,lr:0.000100 
+[2020-02-01 19:33:12 train_model.py:125] INFO     epoch:12/30
+[2020-02-01 19:33:12 train_model.py:127] INFO     Step: 18100/45690, accuracy: 0.996094, cls loss: 0.054153, bbox loss: 0.034168,Landmark loss :0.043251,L2 loss: 0.049559, Total Loss: 0.164046 ,lr:0.000100 
+[2020-02-01 19:33:19 train_model.py:125] INFO     epoch:12/30
+[2020-02-01 19:33:19 train_model.py:127] INFO     Step: 18200/45690, accuracy: 0.984375, cls loss: 0.064802, bbox loss: 0.041316,Landmark loss :0.074655,L2 loss: 0.049558, Total Loss: 0.209673 ,lr:0.000100 
+[2020-02-01 19:33:27 train_model.py:125] INFO     epoch:13/30
+[2020-02-01 19:33:27 train_model.py:127] INFO     Step: 18300/45690, accuracy: 0.976562, cls loss: 0.075151, bbox loss: 0.033333,Landmark loss :0.058570,L2 loss: 0.049557, Total Loss: 0.199945 ,lr:0.000100 
+[2020-02-01 19:33:34 train_model.py:125] INFO     epoch:13/30
+[2020-02-01 19:33:34 train_model.py:127] INFO     Step: 18400/45690, accuracy: 0.988281, cls loss: 0.058625, bbox loss: 0.031852,Landmark loss :0.056187,L2 loss: 0.049556, Total Loss: 0.180295 ,lr:0.000100 
+[2020-02-01 19:33:42 train_model.py:125] INFO     epoch:13/30
+[2020-02-01 19:33:42 train_model.py:127] INFO     Step: 18500/45690, accuracy: 0.964844, cls loss: 0.126030, bbox loss: 0.032708,Landmark loss :0.036766,L2 loss: 0.049554, Total Loss: 0.228704 ,lr:0.000100 
+[2020-02-01 19:33:49 train_model.py:125] INFO     epoch:13/30
+[2020-02-01 19:33:49 train_model.py:127] INFO     Step: 18600/45690, accuracy: 0.976562, cls loss: 0.104405, bbox loss: 0.045425,Landmark loss :0.070060,L2 loss: 0.049553, Total Loss: 0.246731 ,lr:0.000100 
+[2020-02-01 19:33:57 train_model.py:125] INFO     epoch:13/30
+[2020-02-01 19:33:57 train_model.py:127] INFO     Step: 18700/45690, accuracy: 0.964844, cls loss: 0.137037, bbox loss: 0.033341,Landmark loss :0.056690,L2 loss: 0.049552, Total Loss: 0.259950 ,lr:0.000100 
+[2020-02-01 19:34:05 train_model.py:125] INFO     epoch:13/30
+[2020-02-01 19:34:05 train_model.py:127] INFO     Step: 18800/45690, accuracy: 0.968750, cls loss: 0.090217, bbox loss: 0.033162,Landmark loss :0.066244,L2 loss: 0.049550, Total Loss: 0.222592 ,lr:0.000100 
+[2020-02-01 19:34:12 train_model.py:125] INFO     epoch:13/30
+[2020-02-01 19:34:12 train_model.py:127] INFO     Step: 18900/45690, accuracy: 0.976562, cls loss: 0.103905, bbox loss: 0.039341,Landmark loss :0.078380,L2 loss: 0.049549, Total Loss: 0.251504 ,lr:0.000100 
+[2020-02-01 19:34:19 train_model.py:125] INFO     epoch:13/30
+[2020-02-01 19:34:19 train_model.py:127] INFO     Step: 19000/45690, accuracy: 0.972656, cls loss: 0.129268, bbox loss: 0.038105,Landmark loss :0.077265,L2 loss: 0.049547, Total Loss: 0.275133 ,lr:0.000100 
+[2020-02-01 19:34:27 train_model.py:125] INFO     epoch:13/30
+[2020-02-01 19:34:27 train_model.py:127] INFO     Step: 19100/45690, accuracy: 0.988281, cls loss: 0.067372, bbox loss: 0.041309,Landmark loss :0.064992,L2 loss: 0.049546, Total Loss: 0.202565 ,lr:0.000100 
+[2020-02-01 19:34:34 train_model.py:125] INFO     epoch:13/30
+[2020-02-01 19:34:34 train_model.py:127] INFO     Step: 19200/45690, accuracy: 0.988281, cls loss: 0.075296, bbox loss: 0.039224,Landmark loss :0.037834,L2 loss: 0.049545, Total Loss: 0.182287 ,lr:0.000100 
+[2020-02-01 19:34:42 train_model.py:125] INFO     epoch:13/30
+[2020-02-01 19:34:42 train_model.py:127] INFO     Step: 19300/45690, accuracy: 0.984375, cls loss: 0.081023, bbox loss: 0.037304,Landmark loss :0.059038,L2 loss: 0.049544, Total Loss: 0.208257 ,lr:0.000100 
+[2020-02-01 19:34:49 train_model.py:125] INFO     epoch:13/30
+[2020-02-01 19:34:49 train_model.py:127] INFO     Step: 19400/45690, accuracy: 0.968750, cls loss: 0.096568, bbox loss: 0.035407,Landmark loss :0.070590,L2 loss: 0.049542, Total Loss: 0.234404 ,lr:0.000100 
+[2020-02-01 19:34:56 train_model.py:125] INFO     epoch:13/30
+[2020-02-01 19:34:56 train_model.py:127] INFO     Step: 19500/45690, accuracy: 0.976562, cls loss: 0.103574, bbox loss: 0.042053,Landmark loss :0.053389,L2 loss: 0.049541, Total Loss: 0.227531 ,lr:0.000100 
+[2020-02-01 19:35:03 train_model.py:125] INFO     epoch:13/30
+[2020-02-01 19:35:03 train_model.py:127] INFO     Step: 19600/45690, accuracy: 0.980469, cls loss: 0.089628, bbox loss: 0.041194,Landmark loss :0.061542,L2 loss: 0.049540, Total Loss: 0.221307 ,lr:0.000100 
+[2020-02-01 19:35:11 train_model.py:125] INFO     epoch:13/30
+[2020-02-01 19:35:11 train_model.py:127] INFO     Step: 19700/45690, accuracy: 0.980469, cls loss: 0.111055, bbox loss: 0.042475,Landmark loss :0.057840,L2 loss: 0.049538, Total Loss: 0.239670 ,lr:0.000100 
+[2020-02-01 19:35:18 train_model.py:125] INFO     epoch:14/30
+[2020-02-01 19:35:18 train_model.py:127] INFO     Step: 19800/45690, accuracy: 0.984375, cls loss: 0.114518, bbox loss: 0.040305,Landmark loss :0.063215,L2 loss: 0.049537, Total Loss: 0.247423 ,lr:0.000100 
+[2020-02-01 19:35:25 train_model.py:125] INFO     epoch:14/30
+[2020-02-01 19:35:25 train_model.py:127] INFO     Step: 19900/45690, accuracy: 0.984375, cls loss: 0.110790, bbox loss: 0.035715,Landmark loss :0.069486,L2 loss: 0.049536, Total Loss: 0.247670 ,lr:0.000100 
+[2020-02-01 19:35:32 train_model.py:125] INFO     epoch:14/30
+[2020-02-01 19:35:32 train_model.py:127] INFO     Step: 20000/45690, accuracy: 0.976562, cls loss: 0.112651, bbox loss: 0.037235,Landmark loss :0.035555,L2 loss: 0.049535, Total Loss: 0.216358 ,lr:0.000100 
+[2020-02-01 19:35:40 train_model.py:125] INFO     epoch:14/30
+[2020-02-01 19:35:40 train_model.py:127] INFO     Step: 20100/45690, accuracy: 0.968750, cls loss: 0.133492, bbox loss: 0.040163,Landmark loss :0.071506,L2 loss: 0.049533, Total Loss: 0.274613 ,lr:0.000100 
+[2020-02-01 19:35:47 train_model.py:125] INFO     epoch:14/30
+[2020-02-01 19:35:47 train_model.py:127] INFO     Step: 20200/45690, accuracy: 0.976562, cls loss: 0.103003, bbox loss: 0.034705,Landmark loss :0.056125,L2 loss: 0.049532, Total Loss: 0.226013 ,lr:0.000100 
+[2020-02-01 19:35:54 train_model.py:125] INFO     epoch:14/30
+[2020-02-01 19:35:54 train_model.py:127] INFO     Step: 20300/45690, accuracy: 0.988281, cls loss: 0.070113, bbox loss: 0.035907,Landmark loss :0.068463,L2 loss: 0.049530, Total Loss: 0.206059 ,lr:0.000100 
+[2020-02-01 19:36:02 train_model.py:125] INFO     epoch:14/30
+[2020-02-01 19:36:02 train_model.py:127] INFO     Step: 20400/45690, accuracy: 0.992188, cls loss: 0.044746, bbox loss: 0.036098,Landmark loss :0.064683,L2 loss: 0.049529, Total Loss: 0.177007 ,lr:0.000100 
+[2020-02-01 19:36:09 train_model.py:125] INFO     epoch:14/30
+[2020-02-01 19:36:09 train_model.py:127] INFO     Step: 20500/45690, accuracy: 0.984375, cls loss: 0.096412, bbox loss: 0.037254,Landmark loss :0.048081,L2 loss: 0.049528, Total Loss: 0.212648 ,lr:0.000100 
+[2020-02-01 19:36:17 train_model.py:125] INFO     epoch:14/30
+[2020-02-01 19:36:17 train_model.py:127] INFO     Step: 20600/45690, accuracy: 0.972656, cls loss: 0.148989, bbox loss: 0.043168,Landmark loss :0.051292,L2 loss: 0.049527, Total Loss: 0.271392 ,lr:0.000100 
+[2020-02-01 19:36:24 train_model.py:125] INFO     epoch:14/30
+[2020-02-01 19:36:24 train_model.py:127] INFO     Step: 20700/45690, accuracy: 0.968750, cls loss: 0.099575, bbox loss: 0.043065,Landmark loss :0.053827,L2 loss: 0.049526, Total Loss: 0.224461 ,lr:0.000100 
+[2020-02-01 19:36:32 train_model.py:125] INFO     epoch:14/30
+[2020-02-01 19:36:32 train_model.py:127] INFO     Step: 20800/45690, accuracy: 0.984375, cls loss: 0.109020, bbox loss: 0.047412,Landmark loss :0.042316,L2 loss: 0.049524, Total Loss: 0.224567 ,lr:0.000100 
+[2020-02-01 19:36:40 train_model.py:125] INFO     epoch:14/30
+[2020-02-01 19:36:40 train_model.py:127] INFO     Step: 20900/45690, accuracy: 0.980469, cls loss: 0.103666, bbox loss: 0.038458,Landmark loss :0.047305,L2 loss: 0.049523, Total Loss: 0.219724 ,lr:0.000100 
+[2020-02-01 19:36:47 train_model.py:125] INFO     epoch:14/30
+[2020-02-01 19:36:47 train_model.py:127] INFO     Step: 21000/45690, accuracy: 0.984375, cls loss: 0.140728, bbox loss: 0.031296,Landmark loss :0.070542,L2 loss: 0.049522, Total Loss: 0.276439 ,lr:0.000100 
+[2020-02-01 19:36:54 train_model.py:125] INFO     epoch:14/30
+[2020-02-01 19:36:54 train_model.py:127] INFO     Step: 21100/45690, accuracy: 0.992188, cls loss: 0.062987, bbox loss: 0.044365,Landmark loss :0.063728,L2 loss: 0.049521, Total Loss: 0.198418 ,lr:0.000100 
+[2020-02-01 19:37:02 train_model.py:125] INFO     epoch:14/30
+[2020-02-01 19:37:02 train_model.py:127] INFO     Step: 21200/45690, accuracy: 0.976562, cls loss: 0.079565, bbox loss: 0.041868,Landmark loss :0.049067,L2 loss: 0.049519, Total Loss: 0.199086 ,lr:0.000100 
+[2020-02-01 19:37:09 train_model.py:125] INFO     epoch:14/30
+[2020-02-01 19:37:09 train_model.py:127] INFO     Step: 21300/45690, accuracy: 0.968750, cls loss: 0.154408, bbox loss: 0.042309,Landmark loss :0.045532,L2 loss: 0.049518, Total Loss: 0.270613 ,lr:0.000100 
+[2020-02-01 19:37:17 train_model.py:125] INFO     epoch:15/30
+[2020-02-01 19:37:17 train_model.py:127] INFO     Step: 21400/45690, accuracy: 0.996094, cls loss: 0.047649, bbox loss: 0.042404,Landmark loss :0.042500,L2 loss: 0.049518, Total Loss: 0.160870 ,lr:0.000010 
+[2020-02-01 19:37:24 train_model.py:125] INFO     epoch:15/30
+[2020-02-01 19:37:24 train_model.py:127] INFO     Step: 21500/45690, accuracy: 0.976562, cls loss: 0.087276, bbox loss: 0.032907,Landmark loss :0.063440,L2 loss: 0.049518, Total Loss: 0.216687 ,lr:0.000010 
+[2020-02-01 19:37:32 train_model.py:125] INFO     epoch:15/30
+[2020-02-01 19:37:32 train_model.py:127] INFO     Step: 21600/45690, accuracy: 0.972656, cls loss: 0.125088, bbox loss: 0.035138,Landmark loss :0.050653,L2 loss: 0.049518, Total Loss: 0.242827 ,lr:0.000010 
+[2020-02-01 19:37:39 train_model.py:125] INFO     epoch:15/30
+[2020-02-01 19:37:39 train_model.py:127] INFO     Step: 21700/45690, accuracy: 0.968750, cls loss: 0.164762, bbox loss: 0.030021,Landmark loss :0.042555,L2 loss: 0.049517, Total Loss: 0.271845 ,lr:0.000010 
+[2020-02-01 19:37:46 train_model.py:125] INFO     epoch:15/30
+[2020-02-01 19:37:46 train_model.py:127] INFO     Step: 21800/45690, accuracy: 0.984375, cls loss: 0.096357, bbox loss: 0.039440,Landmark loss :0.062580,L2 loss: 0.049517, Total Loss: 0.228174 ,lr:0.000010 
+[2020-02-01 19:37:54 train_model.py:125] INFO     epoch:15/30
+[2020-02-01 19:37:54 train_model.py:127] INFO     Step: 21900/45690, accuracy: 0.984375, cls loss: 0.074786, bbox loss: 0.045491,Landmark loss :0.065094,L2 loss: 0.049517, Total Loss: 0.212142 ,lr:0.000010 
+[2020-02-01 19:38:01 train_model.py:125] INFO     epoch:15/30
+[2020-02-01 19:38:01 train_model.py:127] INFO     Step: 22000/45690, accuracy: 0.957031, cls loss: 0.169434, bbox loss: 0.042993,Landmark loss :0.070620,L2 loss: 0.049517, Total Loss: 0.311068 ,lr:0.000010 
+[2020-02-01 19:38:09 train_model.py:125] INFO     epoch:15/30
+[2020-02-01 19:38:09 train_model.py:127] INFO     Step: 22100/45690, accuracy: 0.976562, cls loss: 0.070978, bbox loss: 0.034601,Landmark loss :0.062186,L2 loss: 0.049517, Total Loss: 0.199982 ,lr:0.000010 
+[2020-02-01 19:38:16 train_model.py:125] INFO     epoch:15/30
+[2020-02-01 19:38:16 train_model.py:127] INFO     Step: 22200/45690, accuracy: 0.988281, cls loss: 0.066418, bbox loss: 0.033892,Landmark loss :0.086815,L2 loss: 0.049517, Total Loss: 0.219696 ,lr:0.000010 
+[2020-02-01 19:38:24 train_model.py:125] INFO     epoch:15/30
+[2020-02-01 19:38:24 train_model.py:127] INFO     Step: 22300/45690, accuracy: 0.984375, cls loss: 0.083421, bbox loss: 0.042229,Landmark loss :0.077431,L2 loss: 0.049517, Total Loss: 0.231484 ,lr:0.000010 
+[2020-02-01 19:38:31 train_model.py:125] INFO     epoch:15/30
+[2020-02-01 19:38:31 train_model.py:127] INFO     Step: 22400/45690, accuracy: 0.988281, cls loss: 0.081382, bbox loss: 0.041950,Landmark loss :0.082125,L2 loss: 0.049516, Total Loss: 0.233998 ,lr:0.000010 
+[2020-02-01 19:38:39 train_model.py:125] INFO     epoch:15/30
+[2020-02-01 19:38:39 train_model.py:127] INFO     Step: 22500/45690, accuracy: 0.988281, cls loss: 0.049994, bbox loss: 0.029832,Landmark loss :0.053864,L2 loss: 0.049516, Total Loss: 0.168290 ,lr:0.000010 
+[2020-02-01 19:38:47 train_model.py:125] INFO     epoch:15/30
+[2020-02-01 19:38:47 train_model.py:127] INFO     Step: 22600/45690, accuracy: 0.953125, cls loss: 0.164728, bbox loss: 0.047525,Landmark loss :0.079741,L2 loss: 0.049516, Total Loss: 0.317748 ,lr:0.000010 
+[2020-02-01 19:38:54 train_model.py:125] INFO     epoch:15/30
+[2020-02-01 19:38:54 train_model.py:127] INFO     Step: 22700/45690, accuracy: 0.972656, cls loss: 0.120066, bbox loss: 0.028527,Landmark loss :0.042166,L2 loss: 0.049516, Total Loss: 0.226012 ,lr:0.000010 
+[2020-02-01 19:39:01 train_model.py:125] INFO     epoch:15/30
+[2020-02-01 19:39:01 train_model.py:127] INFO     Step: 22800/45690, accuracy: 0.984375, cls loss: 0.105520, bbox loss: 0.038331,Landmark loss :0.053399,L2 loss: 0.049516, Total Loss: 0.227601 ,lr:0.000010 
+[2020-02-01 19:39:09 train_model.py:125] INFO     epoch:16/30
+[2020-02-01 19:39:09 train_model.py:127] INFO     Step: 22900/45690, accuracy: 0.988281, cls loss: 0.052735, bbox loss: 0.037495,Landmark loss :0.051294,L2 loss: 0.049516, Total Loss: 0.172293 ,lr:0.000010 
+[2020-02-01 19:39:17 train_model.py:125] INFO     epoch:16/30
+[2020-02-01 19:39:17 train_model.py:127] INFO     Step: 23000/45690, accuracy: 0.992188, cls loss: 0.078931, bbox loss: 0.041795,Landmark loss :0.055683,L2 loss: 0.049516, Total Loss: 0.205028 ,lr:0.000010 
+[2020-02-01 19:39:24 train_model.py:125] INFO     epoch:16/30
+[2020-02-01 19:39:24 train_model.py:127] INFO     Step: 23100/45690, accuracy: 0.980469, cls loss: 0.113119, bbox loss: 0.034015,Landmark loss :0.066714,L2 loss: 0.049516, Total Loss: 0.246357 ,lr:0.000010 
+[2020-02-01 19:39:31 train_model.py:125] INFO     epoch:16/30
+[2020-02-01 19:39:31 train_model.py:127] INFO     Step: 23200/45690, accuracy: 0.964844, cls loss: 0.114014, bbox loss: 0.034066,Landmark loss :0.046950,L2 loss: 0.049515, Total Loss: 0.227512 ,lr:0.000010 
+[2020-02-01 19:39:39 train_model.py:125] INFO     epoch:16/30
+[2020-02-01 19:39:39 train_model.py:127] INFO     Step: 23300/45690, accuracy: 0.976562, cls loss: 0.090536, bbox loss: 0.040754,Landmark loss :0.054845,L2 loss: 0.049515, Total Loss: 0.215273 ,lr:0.000010 
+[2020-02-01 19:39:46 train_model.py:125] INFO     epoch:16/30
+[2020-02-01 19:39:46 train_model.py:127] INFO     Step: 23400/45690, accuracy: 1.000000, cls loss: 0.035073, bbox loss: 0.038549,Landmark loss :0.063082,L2 loss: 0.049515, Total Loss: 0.166945 ,lr:0.000010 
+[2020-02-01 19:39:53 train_model.py:125] INFO     epoch:16/30
+[2020-02-01 19:39:53 train_model.py:127] INFO     Step: 23500/45690, accuracy: 0.984375, cls loss: 0.104641, bbox loss: 0.034045,Landmark loss :0.048808,L2 loss: 0.049515, Total Loss: 0.219986 ,lr:0.000010 
+[2020-02-01 19:40:01 train_model.py:125] INFO     epoch:16/30
+[2020-02-01 19:40:01 train_model.py:127] INFO     Step: 23600/45690, accuracy: 0.976562, cls loss: 0.069505, bbox loss: 0.041995,Landmark loss :0.032974,L2 loss: 0.049515, Total Loss: 0.172991 ,lr:0.000010 
+[2020-02-01 19:40:08 train_model.py:125] INFO     epoch:16/30
+[2020-02-01 19:40:08 train_model.py:127] INFO     Step: 23700/45690, accuracy: 0.976562, cls loss: 0.106843, bbox loss: 0.025633,Landmark loss :0.066068,L2 loss: 0.049515, Total Loss: 0.235243 ,lr:0.000010 
+[2020-02-01 19:40:16 train_model.py:125] INFO     epoch:16/30
+[2020-02-01 19:40:16 train_model.py:127] INFO     Step: 23800/45690, accuracy: 0.976562, cls loss: 0.107157, bbox loss: 0.041032,Landmark loss :0.089330,L2 loss: 0.049515, Total Loss: 0.266518 ,lr:0.000010 
+[2020-02-01 19:40:23 train_model.py:125] INFO     epoch:16/30
+[2020-02-01 19:40:23 train_model.py:127] INFO     Step: 23900/45690, accuracy: 0.984375, cls loss: 0.093579, bbox loss: 0.042936,Landmark loss :0.078314,L2 loss: 0.049514, Total Loss: 0.242876 ,lr:0.000010 
+[2020-02-01 19:40:31 train_model.py:125] INFO     epoch:16/30
+[2020-02-01 19:40:31 train_model.py:127] INFO     Step: 24000/45690, accuracy: 0.972656, cls loss: 0.100894, bbox loss: 0.036674,Landmark loss :0.068644,L2 loss: 0.049514, Total Loss: 0.237389 ,lr:0.000010 
+[2020-02-01 19:40:38 train_model.py:125] INFO     epoch:16/30
+[2020-02-01 19:40:38 train_model.py:127] INFO     Step: 24100/45690, accuracy: 0.988281, cls loss: 0.094401, bbox loss: 0.044957,Landmark loss :0.043209,L2 loss: 0.049514, Total Loss: 0.209602 ,lr:0.000010 
+[2020-02-01 19:40:46 train_model.py:125] INFO     epoch:16/30
+[2020-02-01 19:40:46 train_model.py:127] INFO     Step: 24200/45690, accuracy: 0.976562, cls loss: 0.133725, bbox loss: 0.046494,Landmark loss :0.059007,L2 loss: 0.049514, Total Loss: 0.265494 ,lr:0.000010 
+[2020-02-01 19:40:53 train_model.py:125] INFO     epoch:16/30
+[2020-02-01 19:40:53 train_model.py:127] INFO     Step: 24300/45690, accuracy: 1.000000, cls loss: 0.037256, bbox loss: 0.030454,Landmark loss :0.049672,L2 loss: 0.049514, Total Loss: 0.151669 ,lr:0.000010 
+[2020-02-01 19:41:00 train_model.py:125] INFO     epoch:17/30
+[2020-02-01 19:41:00 train_model.py:127] INFO     Step: 24400/45690, accuracy: 0.996094, cls loss: 0.047173, bbox loss: 0.038247,Landmark loss :0.062806,L2 loss: 0.049514, Total Loss: 0.178616 ,lr:0.000010 
+[2020-02-01 19:41:08 train_model.py:125] INFO     epoch:17/30
+[2020-02-01 19:41:08 train_model.py:127] INFO     Step: 24500/45690, accuracy: 0.992188, cls loss: 0.055605, bbox loss: 0.035130,Landmark loss :0.047908,L2 loss: 0.049514, Total Loss: 0.170592 ,lr:0.000010 
+[2020-02-01 19:41:15 train_model.py:125] INFO     epoch:17/30
+[2020-02-01 19:41:15 train_model.py:127] INFO     Step: 24600/45690, accuracy: 0.988281, cls loss: 0.074803, bbox loss: 0.038598,Landmark loss :0.047253,L2 loss: 0.049514, Total Loss: 0.190869 ,lr:0.000010 
+[2020-02-01 19:41:23 train_model.py:125] INFO     epoch:17/30
+[2020-02-01 19:41:23 train_model.py:127] INFO     Step: 24700/45690, accuracy: 0.992188, cls loss: 0.078963, bbox loss: 0.028150,Landmark loss :0.067844,L2 loss: 0.049514, Total Loss: 0.210395 ,lr:0.000010 
+[2020-02-01 19:41:31 train_model.py:125] INFO     epoch:17/30
+[2020-02-01 19:41:31 train_model.py:127] INFO     Step: 24800/45690, accuracy: 0.976562, cls loss: 0.113486, bbox loss: 0.039708,Landmark loss :0.055082,L2 loss: 0.049513, Total Loss: 0.237935 ,lr:0.000010 
+[2020-02-01 19:41:38 train_model.py:125] INFO     epoch:17/30
+[2020-02-01 19:41:38 train_model.py:127] INFO     Step: 24900/45690, accuracy: 0.980469, cls loss: 0.096710, bbox loss: 0.041732,Landmark loss :0.051642,L2 loss: 0.049513, Total Loss: 0.218731 ,lr:0.000010 
+[2020-02-01 19:41:46 train_model.py:125] INFO     epoch:17/30
+[2020-02-01 19:41:46 train_model.py:127] INFO     Step: 25000/45690, accuracy: 0.976562, cls loss: 0.142301, bbox loss: 0.036778,Landmark loss :0.058161,L2 loss: 0.049513, Total Loss: 0.268365 ,lr:0.000010 
+[2020-02-01 19:41:54 train_model.py:125] INFO     epoch:17/30
+[2020-02-01 19:41:54 train_model.py:127] INFO     Step: 25100/45690, accuracy: 0.976562, cls loss: 0.103656, bbox loss: 0.035337,Landmark loss :0.049263,L2 loss: 0.049513, Total Loss: 0.220100 ,lr:0.000010 
+[2020-02-01 19:42:01 train_model.py:125] INFO     epoch:17/30
+[2020-02-01 19:42:01 train_model.py:127] INFO     Step: 25200/45690, accuracy: 0.980469, cls loss: 0.078517, bbox loss: 0.030361,Landmark loss :0.100640,L2 loss: 0.049513, Total Loss: 0.243851 ,lr:0.000010 
+[2020-02-01 19:42:09 train_model.py:125] INFO     epoch:17/30
+[2020-02-01 19:42:09 train_model.py:127] INFO     Step: 25300/45690, accuracy: 0.984375, cls loss: 0.073130, bbox loss: 0.033115,Landmark loss :0.051420,L2 loss: 0.049513, Total Loss: 0.190620 ,lr:0.000010 
+[2020-02-01 19:42:16 train_model.py:125] INFO     epoch:17/30
+[2020-02-01 19:42:16 train_model.py:127] INFO     Step: 25400/45690, accuracy: 0.996094, cls loss: 0.059276, bbox loss: 0.031224,Landmark loss :0.072903,L2 loss: 0.049513, Total Loss: 0.197304 ,lr:0.000010 
+[2020-02-01 19:42:24 train_model.py:125] INFO     epoch:17/30
+[2020-02-01 19:42:24 train_model.py:127] INFO     Step: 25500/45690, accuracy: 0.980469, cls loss: 0.076799, bbox loss: 0.034303,Landmark loss :0.053632,L2 loss: 0.049513, Total Loss: 0.197094 ,lr:0.000010 
+[2020-02-01 19:42:31 train_model.py:125] INFO     epoch:17/30
+[2020-02-01 19:42:31 train_model.py:127] INFO     Step: 25600/45690, accuracy: 0.988281, cls loss: 0.064569, bbox loss: 0.032684,Landmark loss :0.100630,L2 loss: 0.049512, Total Loss: 0.231053 ,lr:0.000010 
+[2020-02-01 19:42:39 train_model.py:125] INFO     epoch:17/30
+[2020-02-01 19:42:39 train_model.py:127] INFO     Step: 25700/45690, accuracy: 1.000000, cls loss: 0.031728, bbox loss: 0.029130,Landmark loss :0.048298,L2 loss: 0.049512, Total Loss: 0.144104 ,lr:0.000010 
+[2020-02-01 19:42:46 train_model.py:125] INFO     epoch:17/30
+[2020-02-01 19:42:46 train_model.py:127] INFO     Step: 25800/45690, accuracy: 0.980469, cls loss: 0.068188, bbox loss: 0.036602,Landmark loss :0.046721,L2 loss: 0.049512, Total Loss: 0.182723 ,lr:0.000010 
+[2020-02-01 19:42:54 train_model.py:125] INFO     epoch:18/30
+[2020-02-01 19:42:54 train_model.py:127] INFO     Step: 25900/45690, accuracy: 0.980469, cls loss: 0.104046, bbox loss: 0.036785,Landmark loss :0.064795,L2 loss: 0.049512, Total Loss: 0.236745 ,lr:0.000010 
+[2020-02-01 19:43:01 train_model.py:125] INFO     epoch:18/30
+[2020-02-01 19:43:01 train_model.py:127] INFO     Step: 26000/45690, accuracy: 0.980469, cls loss: 0.128777, bbox loss: 0.040028,Landmark loss :0.073487,L2 loss: 0.049512, Total Loss: 0.271790 ,lr:0.000010 
+[2020-02-01 19:43:09 train_model.py:125] INFO     epoch:18/30
+[2020-02-01 19:43:09 train_model.py:127] INFO     Step: 26100/45690, accuracy: 0.976562, cls loss: 0.096750, bbox loss: 0.035270,Landmark loss :0.052811,L2 loss: 0.049512, Total Loss: 0.216708 ,lr:0.000010 
+[2020-02-01 19:43:16 train_model.py:125] INFO     epoch:18/30
+[2020-02-01 19:43:16 train_model.py:127] INFO     Step: 26200/45690, accuracy: 0.992188, cls loss: 0.048250, bbox loss: 0.034494,Landmark loss :0.070596,L2 loss: 0.049512, Total Loss: 0.185605 ,lr:0.000010 
+[2020-02-01 19:43:24 train_model.py:125] INFO     epoch:18/30
+[2020-02-01 19:43:24 train_model.py:127] INFO     Step: 26300/45690, accuracy: 0.988281, cls loss: 0.098645, bbox loss: 0.037549,Landmark loss :0.061906,L2 loss: 0.049512, Total Loss: 0.228837 ,lr:0.000010 
+[2020-02-01 19:43:31 train_model.py:125] INFO     epoch:18/30
+[2020-02-01 19:43:31 train_model.py:127] INFO     Step: 26400/45690, accuracy: 0.984375, cls loss: 0.082376, bbox loss: 0.035394,Landmark loss :0.034004,L2 loss: 0.049512, Total Loss: 0.183588 ,lr:0.000010 
+[2020-02-01 19:43:39 train_model.py:125] INFO     epoch:18/30
+[2020-02-01 19:43:39 train_model.py:127] INFO     Step: 26500/45690, accuracy: 0.976562, cls loss: 0.113684, bbox loss: 0.045111,Landmark loss :0.072810,L2 loss: 0.049511, Total Loss: 0.258561 ,lr:0.000010 
+[2020-02-01 19:43:47 train_model.py:125] INFO     epoch:18/30
+[2020-02-01 19:43:47 train_model.py:127] INFO     Step: 26600/45690, accuracy: 0.976562, cls loss: 0.148594, bbox loss: 0.040873,Landmark loss :0.082705,L2 loss: 0.049511, Total Loss: 0.301246 ,lr:0.000010 
+[2020-02-01 19:43:54 train_model.py:125] INFO     epoch:18/30
+[2020-02-01 19:43:54 train_model.py:127] INFO     Step: 26700/45690, accuracy: 0.980469, cls loss: 0.081752, bbox loss: 0.033718,Landmark loss :0.052853,L2 loss: 0.049511, Total Loss: 0.200975 ,lr:0.000010 
+[2020-02-01 19:44:02 train_model.py:125] INFO     epoch:18/30
+[2020-02-01 19:44:02 train_model.py:127] INFO     Step: 26800/45690, accuracy: 0.968750, cls loss: 0.156932, bbox loss: 0.036781,Landmark loss :0.060979,L2 loss: 0.049511, Total Loss: 0.285812 ,lr:0.000010 
+[2020-02-01 19:44:09 train_model.py:125] INFO     epoch:18/30
+[2020-02-01 19:44:09 train_model.py:127] INFO     Step: 26900/45690, accuracy: 0.996094, cls loss: 0.045540, bbox loss: 0.037372,Landmark loss :0.076541,L2 loss: 0.049511, Total Loss: 0.190279 ,lr:0.000010 
+[2020-02-01 19:44:16 train_model.py:125] INFO     epoch:18/30
+[2020-02-01 19:44:16 train_model.py:127] INFO     Step: 27000/45690, accuracy: 0.988281, cls loss: 0.072319, bbox loss: 0.042796,Landmark loss :0.048703,L2 loss: 0.049511, Total Loss: 0.191930 ,lr:0.000010 
+[2020-02-01 19:44:24 train_model.py:125] INFO     epoch:18/30
+[2020-02-01 19:44:24 train_model.py:127] INFO     Step: 27100/45690, accuracy: 0.972656, cls loss: 0.159805, bbox loss: 0.044942,Landmark loss :0.068292,L2 loss: 0.049510, Total Loss: 0.300078 ,lr:0.000010 
+[2020-02-01 19:44:31 train_model.py:125] INFO     epoch:18/30
+[2020-02-01 19:44:31 train_model.py:127] INFO     Step: 27200/45690, accuracy: 0.976562, cls loss: 0.099787, bbox loss: 0.036749,Landmark loss :0.062962,L2 loss: 0.049510, Total Loss: 0.230633 ,lr:0.000010 
+[2020-02-01 19:44:39 train_model.py:125] INFO     epoch:18/30
+[2020-02-01 19:44:39 train_model.py:127] INFO     Step: 27300/45690, accuracy: 0.996094, cls loss: 0.045732, bbox loss: 0.030990,Landmark loss :0.035465,L2 loss: 0.049510, Total Loss: 0.146202 ,lr:0.000010 
+[2020-02-01 19:44:46 train_model.py:125] INFO     epoch:18/30
+[2020-02-01 19:44:47 train_model.py:127] INFO     Step: 27400/45690, accuracy: 0.976562, cls loss: 0.119187, bbox loss: 0.040349,Landmark loss :0.059451,L2 loss: 0.049510, Total Loss: 0.248323 ,lr:0.000010 
+[2020-02-01 19:44:54 train_model.py:125] INFO     epoch:19/30
+[2020-02-01 19:44:54 train_model.py:127] INFO     Step: 27500/45690, accuracy: 0.964844, cls loss: 0.132333, bbox loss: 0.034792,Landmark loss :0.078123,L2 loss: 0.049510, Total Loss: 0.277361 ,lr:0.000010 
+[2020-02-01 19:45:02 train_model.py:125] INFO     epoch:19/30
+[2020-02-01 19:45:02 train_model.py:127] INFO     Step: 27600/45690, accuracy: 0.988281, cls loss: 0.056166, bbox loss: 0.040037,Landmark loss :0.058896,L2 loss: 0.049510, Total Loss: 0.184590 ,lr:0.000010 
+[2020-02-01 19:45:09 train_model.py:125] INFO     epoch:19/30
+[2020-02-01 19:45:09 train_model.py:127] INFO     Step: 27700/45690, accuracy: 0.980469, cls loss: 0.091761, bbox loss: 0.036444,Landmark loss :0.053216,L2 loss: 0.049510, Total Loss: 0.212708 ,lr:0.000010 
+[2020-02-01 19:45:17 train_model.py:125] INFO     epoch:19/30
+[2020-02-01 19:45:17 train_model.py:127] INFO     Step: 27800/45690, accuracy: 0.992188, cls loss: 0.053595, bbox loss: 0.035876,Landmark loss :0.100081,L2 loss: 0.049510, Total Loss: 0.221123 ,lr:0.000010 
+[2020-02-01 19:45:24 train_model.py:125] INFO     epoch:19/30
+[2020-02-01 19:45:24 train_model.py:127] INFO     Step: 27900/45690, accuracy: 0.980469, cls loss: 0.123169, bbox loss: 0.047568,Landmark loss :0.052596,L2 loss: 0.049509, Total Loss: 0.249059 ,lr:0.000010 
+[2020-02-01 19:45:32 train_model.py:125] INFO     epoch:19/30
+[2020-02-01 19:45:32 train_model.py:127] INFO     Step: 28000/45690, accuracy: 0.984375, cls loss: 0.114950, bbox loss: 0.047469,Landmark loss :0.051193,L2 loss: 0.049509, Total Loss: 0.239387 ,lr:0.000010 
+[2020-02-01 19:45:40 train_model.py:125] INFO     epoch:19/30
+[2020-02-01 19:45:40 train_model.py:127] INFO     Step: 28100/45690, accuracy: 0.984375, cls loss: 0.125993, bbox loss: 0.040110,Landmark loss :0.063568,L2 loss: 0.049509, Total Loss: 0.259125 ,lr:0.000010 
+[2020-02-01 19:45:47 train_model.py:125] INFO     epoch:19/30
+[2020-02-01 19:45:47 train_model.py:127] INFO     Step: 28200/45690, accuracy: 0.976562, cls loss: 0.091076, bbox loss: 0.027672,Landmark loss :0.063751,L2 loss: 0.049509, Total Loss: 0.218171 ,lr:0.000010 
+[2020-02-01 19:45:55 train_model.py:125] INFO     epoch:19/30
+[2020-02-01 19:45:55 train_model.py:127] INFO     Step: 28300/45690, accuracy: 0.988281, cls loss: 0.068722, bbox loss: 0.039621,Landmark loss :0.056457,L2 loss: 0.049509, Total Loss: 0.194499 ,lr:0.000010 
+[2020-02-01 19:46:02 train_model.py:125] INFO     epoch:19/30
+[2020-02-01 19:46:02 train_model.py:127] INFO     Step: 28400/45690, accuracy: 0.988281, cls loss: 0.061223, bbox loss: 0.035529,Landmark loss :0.042361,L2 loss: 0.049509, Total Loss: 0.170857 ,lr:0.000010 
+[2020-02-01 19:46:10 train_model.py:125] INFO     epoch:19/30
+[2020-02-01 19:46:10 train_model.py:127] INFO     Step: 28500/45690, accuracy: 0.976562, cls loss: 0.130707, bbox loss: 0.037805,Landmark loss :0.041698,L2 loss: 0.049509, Total Loss: 0.240816 ,lr:0.000010 
+[2020-02-01 19:46:18 train_model.py:125] INFO     epoch:19/30
+[2020-02-01 19:46:18 train_model.py:127] INFO     Step: 28600/45690, accuracy: 0.988281, cls loss: 0.073619, bbox loss: 0.041193,Landmark loss :0.100392,L2 loss: 0.049508, Total Loss: 0.244116 ,lr:0.000010 
+[2020-02-01 19:46:25 train_model.py:125] INFO     epoch:19/30
+[2020-02-01 19:46:25 train_model.py:127] INFO     Step: 28700/45690, accuracy: 0.972656, cls loss: 0.124492, bbox loss: 0.040116,Landmark loss :0.048829,L2 loss: 0.049508, Total Loss: 0.242888 ,lr:0.000010 
+[2020-02-01 19:46:33 train_model.py:125] INFO     epoch:19/30
+[2020-02-01 19:46:33 train_model.py:127] INFO     Step: 28800/45690, accuracy: 0.980469, cls loss: 0.086090, bbox loss: 0.029628,Landmark loss :0.047931,L2 loss: 0.049508, Total Loss: 0.198343 ,lr:0.000010 
+[2020-02-01 19:46:40 train_model.py:125] INFO     epoch:19/30
+[2020-02-01 19:46:40 train_model.py:127] INFO     Step: 28900/45690, accuracy: 0.976562, cls loss: 0.112617, bbox loss: 0.041002,Landmark loss :0.040222,L2 loss: 0.049508, Total Loss: 0.222848 ,lr:0.000010 
+[2020-02-01 19:46:48 train_model.py:125] INFO     epoch:20/30
+[2020-02-01 19:46:48 train_model.py:127] INFO     Step: 29000/45690, accuracy: 0.980469, cls loss: 0.073137, bbox loss: 0.040956,Landmark loss :0.101986,L2 loss: 0.049508, Total Loss: 0.245110 ,lr:0.000010 
+[2020-02-01 19:46:55 train_model.py:125] INFO     epoch:20/30
+[2020-02-01 19:46:55 train_model.py:127] INFO     Step: 29100/45690, accuracy: 0.972656, cls loss: 0.126036, bbox loss: 0.039309,Landmark loss :0.060324,L2 loss: 0.049508, Total Loss: 0.255523 ,lr:0.000010 
+[2020-02-01 19:47:03 train_model.py:125] INFO     epoch:20/30
+[2020-02-01 19:47:03 train_model.py:127] INFO     Step: 29200/45690, accuracy: 0.984375, cls loss: 0.079182, bbox loss: 0.031561,Landmark loss :0.063077,L2 loss: 0.049508, Total Loss: 0.207548 ,lr:0.000010 
+[2020-02-01 19:47:10 train_model.py:125] INFO     epoch:20/30
+[2020-02-01 19:47:10 train_model.py:127] INFO     Step: 29300/45690, accuracy: 0.972656, cls loss: 0.146609, bbox loss: 0.051929,Landmark loss :0.065866,L2 loss: 0.049508, Total Loss: 0.287947 ,lr:0.000010 
+[2020-02-01 19:47:18 train_model.py:125] INFO     epoch:20/30
+[2020-02-01 19:47:18 train_model.py:127] INFO     Step: 29400/45690, accuracy: 0.976562, cls loss: 0.095868, bbox loss: 0.035884,Landmark loss :0.067436,L2 loss: 0.049507, Total Loss: 0.230754 ,lr:0.000010 
+[2020-02-01 19:47:26 train_model.py:125] INFO     epoch:20/30
+[2020-02-01 19:47:26 train_model.py:127] INFO     Step: 29500/45690, accuracy: 0.976562, cls loss: 0.079773, bbox loss: 0.043425,Landmark loss :0.041488,L2 loss: 0.049507, Total Loss: 0.192481 ,lr:0.000010 
+[2020-02-01 19:47:33 train_model.py:125] INFO     epoch:20/30
+[2020-02-01 19:47:33 train_model.py:127] INFO     Step: 29600/45690, accuracy: 0.992188, cls loss: 0.053936, bbox loss: 0.037269,Landmark loss :0.059571,L2 loss: 0.049507, Total Loss: 0.181649 ,lr:0.000010 
+[2020-02-01 19:47:41 train_model.py:125] INFO     epoch:20/30
+[2020-02-01 19:47:41 train_model.py:127] INFO     Step: 29700/45690, accuracy: 0.992188, cls loss: 0.066082, bbox loss: 0.029110,Landmark loss :0.032981,L2 loss: 0.049507, Total Loss: 0.163125 ,lr:0.000010 
+[2020-02-01 19:47:48 train_model.py:125] INFO     epoch:20/30
+[2020-02-01 19:47:48 train_model.py:127] INFO     Step: 29800/45690, accuracy: 0.992188, cls loss: 0.045861, bbox loss: 0.032434,Landmark loss :0.039348,L2 loss: 0.049507, Total Loss: 0.150933 ,lr:0.000010 
+[2020-02-01 19:47:56 train_model.py:125] INFO     epoch:20/30
+[2020-02-01 19:47:56 train_model.py:127] INFO     Step: 29900/45690, accuracy: 0.992188, cls loss: 0.069906, bbox loss: 0.039966,Landmark loss :0.047745,L2 loss: 0.049507, Total Loss: 0.187141 ,lr:0.000010 
+[2020-02-01 19:48:03 train_model.py:125] INFO     epoch:20/30
+[2020-02-01 19:48:03 train_model.py:127] INFO     Step: 30000/45690, accuracy: 0.960938, cls loss: 0.124148, bbox loss: 0.027892,Landmark loss :0.051481,L2 loss: 0.049507, Total Loss: 0.239082 ,lr:0.000010 
+[2020-02-01 19:48:10 train_model.py:125] INFO     epoch:20/30
+[2020-02-01 19:48:10 train_model.py:127] INFO     Step: 30100/45690, accuracy: 0.988281, cls loss: 0.089752, bbox loss: 0.038559,Landmark loss :0.063307,L2 loss: 0.049507, Total Loss: 0.221844 ,lr:0.000010 
+[2020-02-01 19:48:18 train_model.py:125] INFO     epoch:20/30
+[2020-02-01 19:48:18 train_model.py:127] INFO     Step: 30200/45690, accuracy: 0.980469, cls loss: 0.094477, bbox loss: 0.041309,Landmark loss :0.039755,L2 loss: 0.049507, Total Loss: 0.204393 ,lr:0.000010 
+[2020-02-01 19:48:26 train_model.py:125] INFO     epoch:20/30
+[2020-02-01 19:48:26 train_model.py:127] INFO     Step: 30300/45690, accuracy: 0.984375, cls loss: 0.083876, bbox loss: 0.028622,Landmark loss :0.063473,L2 loss: 0.049506, Total Loss: 0.211166 ,lr:0.000010 
+[2020-02-01 19:48:33 train_model.py:125] INFO     epoch:20/30
+[2020-02-01 19:48:33 train_model.py:127] INFO     Step: 30400/45690, accuracy: 0.964844, cls loss: 0.128065, bbox loss: 0.033251,Landmark loss :0.069112,L2 loss: 0.049506, Total Loss: 0.263309 ,lr:0.000010 
+[2020-02-01 19:48:41 train_model.py:125] INFO     epoch:21/30
+[2020-02-01 19:48:41 train_model.py:127] INFO     Step: 30500/45690, accuracy: 0.988281, cls loss: 0.085454, bbox loss: 0.032369,Landmark loss :0.043866,L2 loss: 0.049506, Total Loss: 0.195011 ,lr:0.000001 
+[2020-02-01 19:48:48 train_model.py:125] INFO     epoch:21/30
+[2020-02-01 19:48:48 train_model.py:127] INFO     Step: 30600/45690, accuracy: 0.992188, cls loss: 0.056281, bbox loss: 0.039787,Landmark loss :0.080457,L2 loss: 0.049506, Total Loss: 0.206138 ,lr:0.000001 
+[2020-02-01 19:48:56 train_model.py:125] INFO     epoch:21/30
+[2020-02-01 19:48:56 train_model.py:127] INFO     Step: 30700/45690, accuracy: 0.968750, cls loss: 0.108459, bbox loss: 0.032755,Landmark loss :0.051509,L2 loss: 0.049506, Total Loss: 0.225852 ,lr:0.000001 
+[2020-02-01 19:49:03 train_model.py:125] INFO     epoch:21/30
+[2020-02-01 19:49:03 train_model.py:127] INFO     Step: 30800/45690, accuracy: 0.988281, cls loss: 0.063826, bbox loss: 0.031924,Landmark loss :0.060077,L2 loss: 0.049506, Total Loss: 0.189371 ,lr:0.000001 
+[2020-02-01 19:49:11 train_model.py:125] INFO     epoch:21/30
+[2020-02-01 19:49:11 train_model.py:127] INFO     Step: 30900/45690, accuracy: 0.976562, cls loss: 0.121303, bbox loss: 0.035943,Landmark loss :0.048638,L2 loss: 0.049506, Total Loss: 0.237419 ,lr:0.000001 
+[2020-02-01 19:49:18 train_model.py:125] INFO     epoch:21/30
+[2020-02-01 19:49:18 train_model.py:127] INFO     Step: 31000/45690, accuracy: 0.976562, cls loss: 0.134052, bbox loss: 0.037623,Landmark loss :0.071789,L2 loss: 0.049506, Total Loss: 0.274159 ,lr:0.000001 
+[2020-02-01 19:49:25 train_model.py:125] INFO     epoch:21/30
+[2020-02-01 19:49:25 train_model.py:127] INFO     Step: 31100/45690, accuracy: 0.988281, cls loss: 0.103202, bbox loss: 0.028886,Landmark loss :0.049343,L2 loss: 0.049506, Total Loss: 0.216494 ,lr:0.000001 
+[2020-02-01 19:49:33 train_model.py:125] INFO     epoch:21/30
+[2020-02-01 19:49:33 train_model.py:127] INFO     Step: 31200/45690, accuracy: 0.984375, cls loss: 0.058871, bbox loss: 0.040922,Landmark loss :0.046251,L2 loss: 0.049506, Total Loss: 0.175089 ,lr:0.000001 
+[2020-02-01 19:49:40 train_model.py:125] INFO     epoch:21/30
+[2020-02-01 19:49:40 train_model.py:127] INFO     Step: 31300/45690, accuracy: 0.976562, cls loss: 0.118550, bbox loss: 0.044990,Landmark loss :0.048898,L2 loss: 0.049506, Total Loss: 0.239450 ,lr:0.000001 
+[2020-02-01 19:49:47 train_model.py:125] INFO     epoch:21/30
+[2020-02-01 19:49:47 train_model.py:127] INFO     Step: 31400/45690, accuracy: 0.992188, cls loss: 0.067254, bbox loss: 0.038504,Landmark loss :0.065725,L2 loss: 0.049506, Total Loss: 0.201737 ,lr:0.000001 
+[2020-02-01 19:49:54 train_model.py:125] INFO     epoch:21/30
+[2020-02-01 19:49:54 train_model.py:127] INFO     Step: 31500/45690, accuracy: 0.984375, cls loss: 0.051073, bbox loss: 0.041296,Landmark loss :0.064821,L2 loss: 0.049506, Total Loss: 0.186048 ,lr:0.000001 
+[2020-02-01 19:50:01 train_model.py:125] INFO     epoch:21/30
+[2020-02-01 19:50:01 train_model.py:127] INFO     Step: 31600/45690, accuracy: 0.980469, cls loss: 0.082091, bbox loss: 0.031936,Landmark loss :0.050400,L2 loss: 0.049506, Total Loss: 0.197965 ,lr:0.000001 
+[2020-02-01 19:50:09 train_model.py:125] INFO     epoch:21/30
+[2020-02-01 19:50:09 train_model.py:127] INFO     Step: 31700/45690, accuracy: 0.980469, cls loss: 0.087162, bbox loss: 0.031930,Landmark loss :0.054956,L2 loss: 0.049506, Total Loss: 0.207590 ,lr:0.000001 
+[2020-02-01 19:50:16 train_model.py:125] INFO     epoch:21/30
+[2020-02-01 19:50:16 train_model.py:127] INFO     Step: 31800/45690, accuracy: 0.984375, cls loss: 0.083015, bbox loss: 0.026189,Landmark loss :0.052015,L2 loss: 0.049506, Total Loss: 0.197630 ,lr:0.000001 
+[2020-02-01 19:50:23 train_model.py:125] INFO     epoch:21/30
+[2020-02-01 19:50:23 train_model.py:127] INFO     Step: 31900/45690, accuracy: 0.980469, cls loss: 0.105068, bbox loss: 0.034849,Landmark loss :0.055442,L2 loss: 0.049506, Total Loss: 0.227441 ,lr:0.000001 
+[2020-02-01 19:50:30 train_model.py:125] INFO     epoch:22/30
+[2020-02-01 19:50:30 train_model.py:127] INFO     Step: 32000/45690, accuracy: 0.984375, cls loss: 0.076764, bbox loss: 0.037673,Landmark loss :0.041991,L2 loss: 0.049506, Total Loss: 0.187097 ,lr:0.000001 
+[2020-02-01 19:50:38 train_model.py:125] INFO     epoch:22/30
+[2020-02-01 19:50:38 train_model.py:127] INFO     Step: 32100/45690, accuracy: 0.988281, cls loss: 0.085807, bbox loss: 0.032439,Landmark loss :0.064097,L2 loss: 0.049506, Total Loss: 0.215630 ,lr:0.000001 
+[2020-02-01 19:50:45 train_model.py:125] INFO     epoch:22/30
+[2020-02-01 19:50:45 train_model.py:127] INFO     Step: 32200/45690, accuracy: 0.980469, cls loss: 0.098545, bbox loss: 0.047021,Landmark loss :0.057877,L2 loss: 0.049506, Total Loss: 0.229438 ,lr:0.000001 
+[2020-02-01 19:50:53 train_model.py:125] INFO     epoch:22/30
+[2020-02-01 19:50:53 train_model.py:127] INFO     Step: 32300/45690, accuracy: 0.972656, cls loss: 0.104779, bbox loss: 0.031246,Landmark loss :0.056142,L2 loss: 0.049506, Total Loss: 0.226050 ,lr:0.000001 
+[2020-02-01 19:51:00 train_model.py:125] INFO     epoch:22/30
+[2020-02-01 19:51:00 train_model.py:127] INFO     Step: 32400/45690, accuracy: 0.996094, cls loss: 0.046121, bbox loss: 0.036878,Landmark loss :0.054661,L2 loss: 0.049506, Total Loss: 0.168728 ,lr:0.000001 
+[2020-02-01 19:51:08 train_model.py:125] INFO     epoch:22/30
+[2020-02-01 19:51:08 train_model.py:127] INFO     Step: 32500/45690, accuracy: 0.976562, cls loss: 0.121774, bbox loss: 0.042610,Landmark loss :0.043048,L2 loss: 0.049506, Total Loss: 0.235634 ,lr:0.000001 
+[2020-02-01 19:51:16 train_model.py:125] INFO     epoch:22/30
+[2020-02-01 19:51:16 train_model.py:127] INFO     Step: 32600/45690, accuracy: 0.984375, cls loss: 0.104216, bbox loss: 0.032573,Landmark loss :0.070414,L2 loss: 0.049506, Total Loss: 0.240422 ,lr:0.000001 
+[2020-02-01 19:51:23 train_model.py:125] INFO     epoch:22/30
+[2020-02-01 19:51:23 train_model.py:127] INFO     Step: 32700/45690, accuracy: 0.972656, cls loss: 0.132732, bbox loss: 0.033929,Landmark loss :0.046092,L2 loss: 0.049506, Total Loss: 0.245295 ,lr:0.000001 
+[2020-02-01 19:51:31 train_model.py:125] INFO     epoch:22/30
+[2020-02-01 19:51:31 train_model.py:127] INFO     Step: 32800/45690, accuracy: 0.976562, cls loss: 0.105921, bbox loss: 0.041764,Landmark loss :0.046014,L2 loss: 0.049506, Total Loss: 0.222324 ,lr:0.000001 
+[2020-02-01 19:51:38 train_model.py:125] INFO     epoch:22/30
+[2020-02-01 19:51:38 train_model.py:127] INFO     Step: 32900/45690, accuracy: 0.980469, cls loss: 0.097802, bbox loss: 0.035499,Landmark loss :0.049288,L2 loss: 0.049506, Total Loss: 0.214346 ,lr:0.000001 
+[2020-02-01 19:51:46 train_model.py:125] INFO     epoch:22/30
+[2020-02-01 19:51:46 train_model.py:127] INFO     Step: 33000/45690, accuracy: 0.988281, cls loss: 0.052451, bbox loss: 0.034928,Landmark loss :0.062709,L2 loss: 0.049506, Total Loss: 0.182130 ,lr:0.000001 
+[2020-02-01 19:51:54 train_model.py:125] INFO     epoch:22/30
+[2020-02-01 19:51:54 train_model.py:127] INFO     Step: 33100/45690, accuracy: 0.976562, cls loss: 0.116143, bbox loss: 0.037589,Landmark loss :0.053329,L2 loss: 0.049506, Total Loss: 0.237773 ,lr:0.000001 
+[2020-02-01 19:52:01 train_model.py:125] INFO     epoch:22/30
+[2020-02-01 19:52:01 train_model.py:127] INFO     Step: 33200/45690, accuracy: 0.988281, cls loss: 0.089846, bbox loss: 0.034401,Landmark loss :0.054542,L2 loss: 0.049506, Total Loss: 0.211094 ,lr:0.000001 
+[2020-02-01 19:52:09 train_model.py:125] INFO     epoch:22/30
+[2020-02-01 19:52:09 train_model.py:127] INFO     Step: 33300/45690, accuracy: 0.976562, cls loss: 0.132742, bbox loss: 0.044396,Landmark loss :0.048769,L2 loss: 0.049506, Total Loss: 0.253215 ,lr:0.000001 
+[2020-02-01 19:52:16 train_model.py:125] INFO     epoch:22/30
+[2020-02-01 19:52:16 train_model.py:127] INFO     Step: 33400/45690, accuracy: 0.968750, cls loss: 0.147451, bbox loss: 0.041146,Landmark loss :0.047450,L2 loss: 0.049506, Total Loss: 0.264980 ,lr:0.000001 
+[2020-02-01 19:52:23 train_model.py:125] INFO     epoch:22/30
+[2020-02-01 19:52:23 train_model.py:127] INFO     Step: 33500/45690, accuracy: 0.984375, cls loss: 0.071493, bbox loss: 0.031312,Landmark loss :0.059277,L2 loss: 0.049506, Total Loss: 0.195932 ,lr:0.000001 
+[2020-02-01 19:52:31 train_model.py:125] INFO     epoch:23/30
+[2020-02-01 19:52:31 train_model.py:127] INFO     Step: 33600/45690, accuracy: 0.996094, cls loss: 0.040470, bbox loss: 0.034595,Landmark loss :0.057963,L2 loss: 0.049506, Total Loss: 0.165236 ,lr:0.000001 
+[2020-02-01 19:52:39 train_model.py:125] INFO     epoch:23/30
+[2020-02-01 19:52:39 train_model.py:127] INFO     Step: 33700/45690, accuracy: 0.972656, cls loss: 0.112970, bbox loss: 0.034351,Landmark loss :0.068677,L2 loss: 0.049506, Total Loss: 0.248328 ,lr:0.000001 
+[2020-02-01 19:52:46 train_model.py:125] INFO     epoch:23/30
+[2020-02-01 19:52:46 train_model.py:127] INFO     Step: 33800/45690, accuracy: 0.972656, cls loss: 0.155484, bbox loss: 0.032673,Landmark loss :0.067891,L2 loss: 0.049506, Total Loss: 0.289217 ,lr:0.000001 
+[2020-02-01 19:52:54 train_model.py:125] INFO     epoch:23/30
+[2020-02-01 19:52:54 train_model.py:127] INFO     Step: 33900/45690, accuracy: 0.988281, cls loss: 0.101052, bbox loss: 0.035917,Landmark loss :0.047340,L2 loss: 0.049506, Total Loss: 0.215857 ,lr:0.000001 
+[2020-02-01 19:53:02 train_model.py:125] INFO     epoch:23/30
+[2020-02-01 19:53:02 train_model.py:127] INFO     Step: 34000/45690, accuracy: 0.972656, cls loss: 0.124642, bbox loss: 0.031029,Landmark loss :0.048582,L2 loss: 0.049506, Total Loss: 0.238244 ,lr:0.000001 
+[2020-02-01 19:53:09 train_model.py:125] INFO     epoch:23/30
+[2020-02-01 19:53:09 train_model.py:127] INFO     Step: 34100/45690, accuracy: 0.980469, cls loss: 0.079613, bbox loss: 0.033914,Landmark loss :0.049795,L2 loss: 0.049506, Total Loss: 0.195871 ,lr:0.000001 
+[2020-02-01 19:53:16 train_model.py:125] INFO     epoch:23/30
+[2020-02-01 19:53:16 train_model.py:127] INFO     Step: 34200/45690, accuracy: 0.972656, cls loss: 0.089501, bbox loss: 0.042500,Landmark loss :0.073440,L2 loss: 0.049506, Total Loss: 0.233698 ,lr:0.000001 
+[2020-02-01 19:53:24 train_model.py:125] INFO     epoch:23/30
+[2020-02-01 19:53:24 train_model.py:127] INFO     Step: 34300/45690, accuracy: 0.980469, cls loss: 0.121470, bbox loss: 0.032608,Landmark loss :0.045779,L2 loss: 0.049506, Total Loss: 0.233059 ,lr:0.000001 
+[2020-02-01 19:53:31 train_model.py:125] INFO     epoch:23/30
+[2020-02-01 19:53:31 train_model.py:127] INFO     Step: 34400/45690, accuracy: 0.992188, cls loss: 0.056473, bbox loss: 0.042934,Landmark loss :0.050499,L2 loss: 0.049506, Total Loss: 0.177944 ,lr:0.000001 
+[2020-02-01 19:53:38 train_model.py:125] INFO     epoch:23/30
+[2020-02-01 19:53:38 train_model.py:127] INFO     Step: 34500/45690, accuracy: 0.972656, cls loss: 0.086150, bbox loss: 0.036389,Landmark loss :0.066917,L2 loss: 0.049506, Total Loss: 0.220768 ,lr:0.000001 
+[2020-02-01 19:53:46 train_model.py:125] INFO     epoch:23/30
+[2020-02-01 19:53:46 train_model.py:127] INFO     Step: 34600/45690, accuracy: 0.984375, cls loss: 0.068891, bbox loss: 0.050765,Landmark loss :0.049636,L2 loss: 0.049506, Total Loss: 0.193416 ,lr:0.000001 
+[2020-02-01 19:53:53 train_model.py:125] INFO     epoch:23/30
+[2020-02-01 19:53:53 train_model.py:127] INFO     Step: 34700/45690, accuracy: 0.980469, cls loss: 0.094132, bbox loss: 0.039891,Landmark loss :0.042644,L2 loss: 0.049506, Total Loss: 0.206228 ,lr:0.000001 
+[2020-02-01 19:54:00 train_model.py:125] INFO     epoch:23/30
+[2020-02-01 19:54:00 train_model.py:127] INFO     Step: 34800/45690, accuracy: 0.980469, cls loss: 0.102436, bbox loss: 0.033468,Landmark loss :0.037189,L2 loss: 0.049506, Total Loss: 0.205866 ,lr:0.000001 
+[2020-02-01 19:54:08 train_model.py:125] INFO     epoch:23/30
+[2020-02-01 19:54:08 train_model.py:127] INFO     Step: 34900/45690, accuracy: 0.976562, cls loss: 0.124519, bbox loss: 0.038888,Landmark loss :0.053047,L2 loss: 0.049506, Total Loss: 0.246516 ,lr:0.000001 
+[2020-02-01 19:54:15 train_model.py:125] INFO     epoch:23/30
+[2020-02-01 19:54:15 train_model.py:127] INFO     Step: 35000/45690, accuracy: 0.992188, cls loss: 0.050104, bbox loss: 0.038570,Landmark loss :0.038467,L2 loss: 0.049506, Total Loss: 0.157362 ,lr:0.000001 
+[2020-02-01 19:54:23 train_model.py:125] INFO     epoch:24/30
+[2020-02-01 19:54:23 train_model.py:127] INFO     Step: 35100/45690, accuracy: 0.984375, cls loss: 0.075265, bbox loss: 0.042918,Landmark loss :0.066548,L2 loss: 0.049506, Total Loss: 0.212778 ,lr:0.000001 
+[2020-02-01 19:54:30 train_model.py:125] INFO     epoch:24/30
+[2020-02-01 19:54:30 train_model.py:127] INFO     Step: 35200/45690, accuracy: 0.976562, cls loss: 0.104248, bbox loss: 0.028939,Landmark loss :0.068332,L2 loss: 0.049506, Total Loss: 0.236556 ,lr:0.000001 
+[2020-02-01 19:54:38 train_model.py:125] INFO     epoch:24/30
+[2020-02-01 19:54:38 train_model.py:127] INFO     Step: 35300/45690, accuracy: 0.957031, cls loss: 0.151949, bbox loss: 0.045888,Landmark loss :0.041219,L2 loss: 0.049506, Total Loss: 0.265618 ,lr:0.000001 
+[2020-02-01 19:54:45 train_model.py:125] INFO     epoch:24/30
+[2020-02-01 19:54:45 train_model.py:127] INFO     Step: 35400/45690, accuracy: 0.988281, cls loss: 0.095813, bbox loss: 0.045229,Landmark loss :0.057022,L2 loss: 0.049506, Total Loss: 0.224956 ,lr:0.000001 
+[2020-02-01 19:54:53 train_model.py:125] INFO     epoch:24/30
+[2020-02-01 19:54:53 train_model.py:127] INFO     Step: 35500/45690, accuracy: 0.992188, cls loss: 0.057263, bbox loss: 0.047991,Landmark loss :0.041264,L2 loss: 0.049506, Total Loss: 0.172029 ,lr:0.000001 
+[2020-02-01 19:55:01 train_model.py:125] INFO     epoch:24/30
+[2020-02-01 19:55:01 train_model.py:127] INFO     Step: 35600/45690, accuracy: 0.996094, cls loss: 0.065013, bbox loss: 0.043819,Landmark loss :0.044112,L2 loss: 0.049506, Total Loss: 0.180540 ,lr:0.000001 
+[2020-02-01 19:55:08 train_model.py:125] INFO     epoch:24/30
+[2020-02-01 19:55:08 train_model.py:127] INFO     Step: 35700/45690, accuracy: 0.984375, cls loss: 0.079030, bbox loss: 0.029530,Landmark loss :0.047646,L2 loss: 0.049506, Total Loss: 0.190947 ,lr:0.000001 
+[2020-02-01 19:55:16 train_model.py:125] INFO     epoch:24/30
+[2020-02-01 19:55:16 train_model.py:127] INFO     Step: 35800/45690, accuracy: 0.988281, cls loss: 0.074833, bbox loss: 0.043724,Landmark loss :0.062399,L2 loss: 0.049506, Total Loss: 0.208600 ,lr:0.000001 
+[2020-02-01 19:55:23 train_model.py:125] INFO     epoch:24/30
+[2020-02-01 19:55:23 train_model.py:127] INFO     Step: 35900/45690, accuracy: 0.968750, cls loss: 0.105581, bbox loss: 0.046682,Landmark loss :0.043432,L2 loss: 0.049506, Total Loss: 0.221860 ,lr:0.000001 
+[2020-02-01 19:55:31 train_model.py:125] INFO     epoch:24/30
+[2020-02-01 19:55:31 train_model.py:127] INFO     Step: 36000/45690, accuracy: 0.968750, cls loss: 0.169297, bbox loss: 0.028432,Landmark loss :0.057505,L2 loss: 0.049506, Total Loss: 0.290525 ,lr:0.000001 
+[2020-02-01 19:55:38 train_model.py:125] INFO     epoch:24/30
+[2020-02-01 19:55:38 train_model.py:127] INFO     Step: 36100/45690, accuracy: 0.976562, cls loss: 0.143101, bbox loss: 0.055447,Landmark loss :0.048362,L2 loss: 0.049506, Total Loss: 0.268692 ,lr:0.000001 
+[2020-02-01 19:55:46 train_model.py:125] INFO     epoch:24/30
+[2020-02-01 19:55:46 train_model.py:127] INFO     Step: 36200/45690, accuracy: 0.980469, cls loss: 0.107322, bbox loss: 0.039613,Landmark loss :0.063505,L2 loss: 0.049506, Total Loss: 0.240139 ,lr:0.000001 
+[2020-02-01 19:55:53 train_model.py:125] INFO     epoch:24/30
+[2020-02-01 19:55:53 train_model.py:127] INFO     Step: 36300/45690, accuracy: 0.992188, cls loss: 0.052822, bbox loss: 0.032692,Landmark loss :0.067964,L2 loss: 0.049506, Total Loss: 0.186639 ,lr:0.000001 
+[2020-02-01 19:56:01 train_model.py:125] INFO     epoch:24/30
+[2020-02-01 19:56:01 train_model.py:127] INFO     Step: 36400/45690, accuracy: 0.992188, cls loss: 0.074251, bbox loss: 0.038504,Landmark loss :0.059386,L2 loss: 0.049506, Total Loss: 0.202395 ,lr:0.000001 
+[2020-02-01 19:56:08 train_model.py:125] INFO     epoch:24/30
+[2020-02-01 19:56:08 train_model.py:127] INFO     Step: 36500/45690, accuracy: 0.980469, cls loss: 0.091623, bbox loss: 0.036271,Landmark loss :0.083269,L2 loss: 0.049506, Total Loss: 0.242534 ,lr:0.000001 
+[2020-02-01 19:56:16 train_model.py:125] INFO     epoch:25/30
+[2020-02-01 19:56:16 train_model.py:127] INFO     Step: 36600/45690, accuracy: 0.980469, cls loss: 0.084387, bbox loss: 0.034657,Landmark loss :0.052835,L2 loss: 0.049506, Total Loss: 0.204056 ,lr:0.000001 
+[2020-02-01 19:56:23 train_model.py:125] INFO     epoch:25/30
+[2020-02-01 19:56:23 train_model.py:127] INFO     Step: 36700/45690, accuracy: 0.980469, cls loss: 0.107938, bbox loss: 0.046311,Landmark loss :0.043231,L2 loss: 0.049506, Total Loss: 0.223831 ,lr:0.000001 
+[2020-02-01 19:56:30 train_model.py:125] INFO     epoch:25/30
+[2020-02-01 19:56:30 train_model.py:127] INFO     Step: 36800/45690, accuracy: 0.984375, cls loss: 0.091585, bbox loss: 0.036206,Landmark loss :0.053805,L2 loss: 0.049506, Total Loss: 0.212998 ,lr:0.000001 
+[2020-02-01 19:56:37 train_model.py:125] INFO     epoch:25/30
+[2020-02-01 19:56:37 train_model.py:127] INFO     Step: 36900/45690, accuracy: 0.984375, cls loss: 0.060317, bbox loss: 0.032198,Landmark loss :0.041764,L2 loss: 0.049506, Total Loss: 0.167686 ,lr:0.000001 
+[2020-02-01 19:56:45 train_model.py:125] INFO     epoch:25/30
+[2020-02-01 19:56:45 train_model.py:127] INFO     Step: 37000/45690, accuracy: 0.984375, cls loss: 0.072029, bbox loss: 0.030103,Landmark loss :0.075368,L2 loss: 0.049506, Total Loss: 0.211955 ,lr:0.000001 
+[2020-02-01 19:56:52 train_model.py:125] INFO     epoch:25/30
+[2020-02-01 19:56:52 train_model.py:127] INFO     Step: 37100/45690, accuracy: 0.968750, cls loss: 0.111273, bbox loss: 0.037013,Landmark loss :0.050144,L2 loss: 0.049506, Total Loss: 0.229430 ,lr:0.000001 
+[2020-02-01 19:56:59 train_model.py:125] INFO     epoch:25/30
+[2020-02-01 19:56:59 train_model.py:127] INFO     Step: 37200/45690, accuracy: 0.972656, cls loss: 0.091850, bbox loss: 0.034384,Landmark loss :0.066053,L2 loss: 0.049506, Total Loss: 0.224601 ,lr:0.000001 
+[2020-02-01 19:57:07 train_model.py:125] INFO     epoch:25/30
+[2020-02-01 19:57:07 train_model.py:127] INFO     Step: 37300/45690, accuracy: 0.992188, cls loss: 0.054328, bbox loss: 0.043304,Landmark loss :0.046337,L2 loss: 0.049506, Total Loss: 0.171823 ,lr:0.000001 
+[2020-02-01 19:57:14 train_model.py:125] INFO     epoch:25/30
+[2020-02-01 19:57:14 train_model.py:127] INFO     Step: 37400/45690, accuracy: 0.980469, cls loss: 0.071955, bbox loss: 0.039318,Landmark loss :0.072957,L2 loss: 0.049506, Total Loss: 0.214076 ,lr:0.000001 
+[2020-02-01 19:57:21 train_model.py:125] INFO     epoch:25/30
+[2020-02-01 19:57:21 train_model.py:127] INFO     Step: 37500/45690, accuracy: 0.984375, cls loss: 0.077991, bbox loss: 0.044604,Landmark loss :0.056391,L2 loss: 0.049506, Total Loss: 0.206190 ,lr:0.000001 
+[2020-02-01 19:57:28 train_model.py:125] INFO     epoch:25/30
+[2020-02-01 19:57:28 train_model.py:127] INFO     Step: 37600/45690, accuracy: 0.992188, cls loss: 0.045542, bbox loss: 0.033806,Landmark loss :0.072980,L2 loss: 0.049506, Total Loss: 0.184931 ,lr:0.000001 
+[2020-02-01 19:57:36 train_model.py:125] INFO     epoch:25/30
+[2020-02-01 19:57:36 train_model.py:127] INFO     Step: 37700/45690, accuracy: 0.992188, cls loss: 0.068183, bbox loss: 0.045752,Landmark loss :0.049433,L2 loss: 0.049506, Total Loss: 0.189997 ,lr:0.000001 
+[2020-02-01 19:57:43 train_model.py:125] INFO     epoch:25/30
+[2020-02-01 19:57:43 train_model.py:127] INFO     Step: 37800/45690, accuracy: 0.996094, cls loss: 0.044809, bbox loss: 0.048005,Landmark loss :0.052804,L2 loss: 0.049506, Total Loss: 0.171121 ,lr:0.000001 
+[2020-02-01 19:57:50 train_model.py:125] INFO     epoch:25/30
+[2020-02-01 19:57:50 train_model.py:127] INFO     Step: 37900/45690, accuracy: 0.976562, cls loss: 0.102187, bbox loss: 0.039656,Landmark loss :0.071393,L2 loss: 0.049506, Total Loss: 0.242913 ,lr:0.000001 
+[2020-02-01 19:57:58 train_model.py:125] INFO     epoch:25/30
+[2020-02-01 19:57:58 train_model.py:127] INFO     Step: 38000/45690, accuracy: 0.980469, cls loss: 0.098261, bbox loss: 0.031600,Landmark loss :0.048525,L2 loss: 0.049506, Total Loss: 0.212092 ,lr:0.000001 
+[2020-02-01 19:58:05 train_model.py:125] INFO     epoch:26/30
+[2020-02-01 19:58:05 train_model.py:127] INFO     Step: 38100/45690, accuracy: 0.988281, cls loss: 0.073041, bbox loss: 0.033480,Landmark loss :0.073016,L2 loss: 0.049506, Total Loss: 0.212303 ,lr:0.000001 
+[2020-02-01 19:58:13 train_model.py:125] INFO     epoch:26/30
+[2020-02-01 19:58:13 train_model.py:127] INFO     Step: 38200/45690, accuracy: 0.972656, cls loss: 0.182561, bbox loss: 0.040450,Landmark loss :0.055359,L2 loss: 0.049506, Total Loss: 0.307651 ,lr:0.000001 
+[2020-02-01 19:58:20 train_model.py:125] INFO     epoch:26/30
+[2020-02-01 19:58:20 train_model.py:127] INFO     Step: 38300/45690, accuracy: 0.976562, cls loss: 0.118454, bbox loss: 0.045942,Landmark loss :0.048325,L2 loss: 0.049506, Total Loss: 0.239256 ,lr:0.000001 
+[2020-02-01 19:58:28 train_model.py:125] INFO     epoch:26/30
+[2020-02-01 19:58:28 train_model.py:127] INFO     Step: 38400/45690, accuracy: 0.984375, cls loss: 0.074093, bbox loss: 0.030239,Landmark loss :0.067064,L2 loss: 0.049506, Total Loss: 0.205782 ,lr:0.000001 
+[2020-02-01 19:58:35 train_model.py:125] INFO     epoch:26/30
+[2020-02-01 19:58:35 train_model.py:127] INFO     Step: 38500/45690, accuracy: 0.988281, cls loss: 0.060236, bbox loss: 0.042005,Landmark loss :0.051510,L2 loss: 0.049506, Total Loss: 0.182254 ,lr:0.000001 
+[2020-02-01 19:58:42 train_model.py:125] INFO     epoch:26/30
+[2020-02-01 19:58:42 train_model.py:127] INFO     Step: 38600/45690, accuracy: 0.980469, cls loss: 0.083811, bbox loss: 0.039404,Landmark loss :0.066418,L2 loss: 0.049506, Total Loss: 0.219436 ,lr:0.000001 
+[2020-02-01 19:58:50 train_model.py:125] INFO     epoch:26/30
+[2020-02-01 19:58:50 train_model.py:127] INFO     Step: 38700/45690, accuracy: 0.980469, cls loss: 0.135529, bbox loss: 0.033433,Landmark loss :0.076707,L2 loss: 0.049506, Total Loss: 0.278457 ,lr:0.000001 
+[2020-02-01 19:58:57 train_model.py:125] INFO     epoch:26/30
+[2020-02-01 19:58:57 train_model.py:127] INFO     Step: 38800/45690, accuracy: 0.988281, cls loss: 0.054535, bbox loss: 0.033674,Landmark loss :0.056446,L2 loss: 0.049506, Total Loss: 0.177324 ,lr:0.000001 
+[2020-02-01 19:59:05 train_model.py:125] INFO     epoch:26/30
+[2020-02-01 19:59:05 train_model.py:127] INFO     Step: 38900/45690, accuracy: 0.980469, cls loss: 0.145156, bbox loss: 0.036749,Landmark loss :0.046883,L2 loss: 0.049506, Total Loss: 0.259919 ,lr:0.000001 
+[2020-02-01 19:59:12 train_model.py:125] INFO     epoch:26/30
+[2020-02-01 19:59:12 train_model.py:127] INFO     Step: 39000/45690, accuracy: 0.980469, cls loss: 0.111157, bbox loss: 0.041177,Landmark loss :0.066514,L2 loss: 0.049506, Total Loss: 0.247765 ,lr:0.000001 
+[2020-02-01 19:59:19 train_model.py:125] INFO     epoch:26/30
+[2020-02-01 19:59:19 train_model.py:127] INFO     Step: 39100/45690, accuracy: 0.988281, cls loss: 0.081761, bbox loss: 0.050647,Landmark loss :0.061609,L2 loss: 0.049506, Total Loss: 0.218199 ,lr:0.000001 
+[2020-02-01 19:59:27 train_model.py:125] INFO     epoch:26/30
+[2020-02-01 19:59:27 train_model.py:127] INFO     Step: 39200/45690, accuracy: 0.980469, cls loss: 0.112237, bbox loss: 0.043318,Landmark loss :0.061150,L2 loss: 0.049506, Total Loss: 0.244552 ,lr:0.000001 
+[2020-02-01 19:59:34 train_model.py:125] INFO     epoch:26/30
+[2020-02-01 19:59:34 train_model.py:127] INFO     Step: 39300/45690, accuracy: 0.976562, cls loss: 0.096561, bbox loss: 0.040192,Landmark loss :0.063005,L2 loss: 0.049506, Total Loss: 0.229167 ,lr:0.000001 
+[2020-02-01 19:59:41 train_model.py:125] INFO     epoch:26/30
+[2020-02-01 19:59:41 train_model.py:127] INFO     Step: 39400/45690, accuracy: 0.976562, cls loss: 0.124398, bbox loss: 0.040710,Landmark loss :0.059440,L2 loss: 0.049506, Total Loss: 0.253699 ,lr:0.000001 
+[2020-02-01 19:59:49 train_model.py:125] INFO     epoch:26/30
+[2020-02-01 19:59:49 train_model.py:127] INFO     Step: 39500/45690, accuracy: 0.972656, cls loss: 0.165634, bbox loss: 0.043731,Landmark loss :0.045448,L2 loss: 0.049506, Total Loss: 0.282454 ,lr:0.000001 
+[2020-02-01 19:59:56 train_model.py:125] INFO     epoch:27/30
+[2020-02-01 19:59:56 train_model.py:127] INFO     Step: 39600/45690, accuracy: 0.953125, cls loss: 0.157378, bbox loss: 0.028048,Landmark loss :0.054572,L2 loss: 0.049506, Total Loss: 0.275479 ,lr:0.000001 
+[2020-02-01 20:00:04 train_model.py:125] INFO     epoch:27/30
+[2020-02-01 20:00:04 train_model.py:127] INFO     Step: 39700/45690, accuracy: 0.968750, cls loss: 0.088231, bbox loss: 0.040974,Landmark loss :0.059955,L2 loss: 0.049506, Total Loss: 0.218178 ,lr:0.000001 
+[2020-02-01 20:00:11 train_model.py:125] INFO     epoch:27/30
+[2020-02-01 20:00:11 train_model.py:127] INFO     Step: 39800/45690, accuracy: 0.996094, cls loss: 0.078552, bbox loss: 0.038574,Landmark loss :0.064891,L2 loss: 0.049506, Total Loss: 0.212236 ,lr:0.000001 
+[2020-02-01 20:00:18 train_model.py:125] INFO     epoch:27/30
+[2020-02-01 20:00:18 train_model.py:127] INFO     Step: 39900/45690, accuracy: 0.984375, cls loss: 0.114135, bbox loss: 0.038267,Landmark loss :0.040052,L2 loss: 0.049506, Total Loss: 0.222826 ,lr:0.000001 
+[2020-02-01 20:00:26 train_model.py:125] INFO     epoch:27/30
+[2020-02-01 20:00:26 train_model.py:127] INFO     Step: 40000/45690, accuracy: 0.976562, cls loss: 0.126839, bbox loss: 0.039931,Landmark loss :0.068495,L2 loss: 0.049506, Total Loss: 0.264805 ,lr:0.000001 
+[2020-02-01 20:00:33 train_model.py:125] INFO     epoch:27/30
+[2020-02-01 20:00:33 train_model.py:127] INFO     Step: 40100/45690, accuracy: 0.972656, cls loss: 0.129421, bbox loss: 0.049409,Landmark loss :0.068280,L2 loss: 0.049506, Total Loss: 0.271911 ,lr:0.000001 
+[2020-02-01 20:00:40 train_model.py:125] INFO     epoch:27/30
+[2020-02-01 20:00:40 train_model.py:127] INFO     Step: 40200/45690, accuracy: 0.968750, cls loss: 0.161069, bbox loss: 0.042792,Landmark loss :0.054573,L2 loss: 0.049506, Total Loss: 0.286543 ,lr:0.000001 
+[2020-02-01 20:00:47 train_model.py:125] INFO     epoch:27/30
+[2020-02-01 20:00:47 train_model.py:127] INFO     Step: 40300/45690, accuracy: 0.984375, cls loss: 0.098388, bbox loss: 0.031307,Landmark loss :0.044381,L2 loss: 0.049506, Total Loss: 0.207927 ,lr:0.000001 
+[2020-02-01 20:00:55 train_model.py:125] INFO     epoch:27/30
+[2020-02-01 20:00:55 train_model.py:127] INFO     Step: 40400/45690, accuracy: 0.988281, cls loss: 0.076972, bbox loss: 0.035716,Landmark loss :0.056994,L2 loss: 0.049505, Total Loss: 0.201329 ,lr:0.000001 
+[2020-02-01 20:01:02 train_model.py:125] INFO     epoch:27/30
+[2020-02-01 20:01:02 train_model.py:127] INFO     Step: 40500/45690, accuracy: 0.980469, cls loss: 0.111655, bbox loss: 0.030271,Landmark loss :0.044977,L2 loss: 0.049505, Total Loss: 0.221273 ,lr:0.000001 
+[2020-02-01 20:01:09 train_model.py:125] INFO     epoch:27/30
+[2020-02-01 20:01:09 train_model.py:127] INFO     Step: 40600/45690, accuracy: 1.000000, cls loss: 0.036644, bbox loss: 0.039580,Landmark loss :0.037784,L2 loss: 0.049505, Total Loss: 0.143724 ,lr:0.000001 
+[2020-02-01 20:01:16 train_model.py:125] INFO     epoch:27/30
+[2020-02-01 20:01:16 train_model.py:127] INFO     Step: 40700/45690, accuracy: 0.988281, cls loss: 0.096751, bbox loss: 0.039064,Landmark loss :0.046873,L2 loss: 0.049505, Total Loss: 0.212662 ,lr:0.000001 
+[2020-02-01 20:01:23 train_model.py:125] INFO     epoch:27/30
+[2020-02-01 20:01:23 train_model.py:127] INFO     Step: 40800/45690, accuracy: 0.976562, cls loss: 0.101797, bbox loss: 0.041975,Landmark loss :0.042184,L2 loss: 0.049505, Total Loss: 0.214474 ,lr:0.000001 
+[2020-02-01 20:01:30 train_model.py:125] INFO     epoch:27/30
+[2020-02-01 20:01:30 train_model.py:127] INFO     Step: 40900/45690, accuracy: 0.992188, cls loss: 0.052199, bbox loss: 0.042220,Landmark loss :0.072993,L2 loss: 0.049505, Total Loss: 0.195808 ,lr:0.000001 
+[2020-02-01 20:01:38 train_model.py:125] INFO     epoch:27/30
+[2020-02-01 20:01:38 train_model.py:127] INFO     Step: 41000/45690, accuracy: 0.984375, cls loss: 0.087351, bbox loss: 0.029905,Landmark loss :0.050385,L2 loss: 0.049505, Total Loss: 0.202194 ,lr:0.000001 
+[2020-02-01 20:01:45 train_model.py:125] INFO     epoch:27/30
+[2020-02-01 20:01:45 train_model.py:127] INFO     Step: 41100/45690, accuracy: 0.996094, cls loss: 0.066484, bbox loss: 0.035351,Landmark loss :0.048849,L2 loss: 0.049505, Total Loss: 0.182514 ,lr:0.000001 
+[2020-02-01 20:01:53 train_model.py:125] INFO     epoch:28/30
+[2020-02-01 20:01:53 train_model.py:127] INFO     Step: 41200/45690, accuracy: 0.980469, cls loss: 0.121070, bbox loss: 0.038093,Landmark loss :0.074566,L2 loss: 0.049505, Total Loss: 0.264188 ,lr:0.000001 
+[2020-02-01 20:02:00 train_model.py:125] INFO     epoch:28/30
+[2020-02-01 20:02:00 train_model.py:127] INFO     Step: 41300/45690, accuracy: 0.984375, cls loss: 0.086295, bbox loss: 0.045807,Landmark loss :0.063556,L2 loss: 0.049505, Total Loss: 0.222260 ,lr:0.000001 
+[2020-02-01 20:02:07 train_model.py:125] INFO     epoch:28/30
+[2020-02-01 20:02:07 train_model.py:127] INFO     Step: 41400/45690, accuracy: 0.992188, cls loss: 0.056410, bbox loss: 0.031831,Landmark loss :0.055906,L2 loss: 0.049505, Total Loss: 0.177737 ,lr:0.000001 
+[2020-02-01 20:02:15 train_model.py:125] INFO     epoch:28/30
+[2020-02-01 20:02:15 train_model.py:127] INFO     Step: 41500/45690, accuracy: 0.988281, cls loss: 0.074668, bbox loss: 0.043596,Landmark loss :0.048737,L2 loss: 0.049505, Total Loss: 0.194708 ,lr:0.000001 
+[2020-02-01 20:02:22 train_model.py:125] INFO     epoch:28/30
+[2020-02-01 20:02:22 train_model.py:127] INFO     Step: 41600/45690, accuracy: 0.980469, cls loss: 0.100556, bbox loss: 0.041531,Landmark loss :0.070556,L2 loss: 0.049505, Total Loss: 0.241383 ,lr:0.000001 
+[2020-02-01 20:02:30 train_model.py:125] INFO     epoch:28/30
+[2020-02-01 20:02:30 train_model.py:127] INFO     Step: 41700/45690, accuracy: 0.968750, cls loss: 0.141525, bbox loss: 0.039106,Landmark loss :0.052696,L2 loss: 0.049505, Total Loss: 0.263280 ,lr:0.000001 
+[2020-02-01 20:02:37 train_model.py:125] INFO     epoch:28/30
+[2020-02-01 20:02:37 train_model.py:127] INFO     Step: 41800/45690, accuracy: 0.984375, cls loss: 0.103246, bbox loss: 0.030852,Landmark loss :0.063579,L2 loss: 0.049505, Total Loss: 0.231756 ,lr:0.000001 
+[2020-02-01 20:02:44 train_model.py:125] INFO     epoch:28/30
+[2020-02-01 20:02:44 train_model.py:127] INFO     Step: 41900/45690, accuracy: 0.980469, cls loss: 0.087725, bbox loss: 0.034600,Landmark loss :0.062437,L2 loss: 0.049505, Total Loss: 0.216967 ,lr:0.000001 
+[2020-02-01 20:02:51 train_model.py:125] INFO     epoch:28/30
+[2020-02-01 20:02:51 train_model.py:127] INFO     Step: 42000/45690, accuracy: 0.984375, cls loss: 0.107319, bbox loss: 0.029841,Landmark loss :0.062230,L2 loss: 0.049505, Total Loss: 0.233975 ,lr:0.000001 
+[2020-02-01 20:02:59 train_model.py:125] INFO     epoch:28/30
+[2020-02-01 20:02:59 train_model.py:127] INFO     Step: 42100/45690, accuracy: 0.984375, cls loss: 0.071665, bbox loss: 0.047815,Landmark loss :0.063742,L2 loss: 0.049505, Total Loss: 0.208819 ,lr:0.000001 
+[2020-02-01 20:03:06 train_model.py:125] INFO     epoch:28/30
+[2020-02-01 20:03:06 train_model.py:127] INFO     Step: 42200/45690, accuracy: 0.972656, cls loss: 0.145567, bbox loss: 0.035643,Landmark loss :0.040261,L2 loss: 0.049505, Total Loss: 0.253156 ,lr:0.000001 
+[2020-02-01 20:03:13 train_model.py:125] INFO     epoch:28/30
+[2020-02-01 20:03:13 train_model.py:127] INFO     Step: 42300/45690, accuracy: 0.964844, cls loss: 0.094209, bbox loss: 0.037521,Landmark loss :0.057180,L2 loss: 0.049505, Total Loss: 0.219655 ,lr:0.000001 
+[2020-02-01 20:03:21 train_model.py:125] INFO     epoch:28/30
+[2020-02-01 20:03:21 train_model.py:127] INFO     Step: 42400/45690, accuracy: 0.992188, cls loss: 0.056003, bbox loss: 0.041204,Landmark loss :0.061460,L2 loss: 0.049505, Total Loss: 0.187571 ,lr:0.000001 
+[2020-02-01 20:03:28 train_model.py:125] INFO     epoch:28/30
+[2020-02-01 20:03:28 train_model.py:127] INFO     Step: 42500/45690, accuracy: 0.976562, cls loss: 0.066647, bbox loss: 0.033548,Landmark loss :0.048343,L2 loss: 0.049505, Total Loss: 0.181269 ,lr:0.000001 
+[2020-02-01 20:03:35 train_model.py:125] INFO     epoch:28/30
+[2020-02-01 20:03:35 train_model.py:127] INFO     Step: 42600/45690, accuracy: 0.992188, cls loss: 0.089917, bbox loss: 0.035603,Landmark loss :0.054431,L2 loss: 0.049505, Total Loss: 0.211655 ,lr:0.000001 
+[2020-02-01 20:03:42 train_model.py:125] INFO     epoch:29/30
+[2020-02-01 20:03:42 train_model.py:127] INFO     Step: 42700/45690, accuracy: 0.953125, cls loss: 0.166031, bbox loss: 0.031489,Landmark loss :0.049079,L2 loss: 0.049505, Total Loss: 0.280361 ,lr:0.000001 
+[2020-02-01 20:03:49 train_model.py:125] INFO     epoch:29/30
+[2020-02-01 20:03:49 train_model.py:127] INFO     Step: 42800/45690, accuracy: 0.980469, cls loss: 0.145357, bbox loss: 0.040122,Landmark loss :0.060335,L2 loss: 0.049505, Total Loss: 0.275258 ,lr:0.000001 
+[2020-02-01 20:03:57 train_model.py:125] INFO     epoch:29/30
+[2020-02-01 20:03:57 train_model.py:127] INFO     Step: 42900/45690, accuracy: 0.957031, cls loss: 0.235088, bbox loss: 0.042253,Landmark loss :0.073023,L2 loss: 0.049505, Total Loss: 0.378743 ,lr:0.000001 
+[2020-02-01 20:04:04 train_model.py:125] INFO     epoch:29/30
+[2020-02-01 20:04:04 train_model.py:127] INFO     Step: 43000/45690, accuracy: 0.980469, cls loss: 0.091131, bbox loss: 0.034276,Landmark loss :0.049739,L2 loss: 0.049505, Total Loss: 0.207513 ,lr:0.000001 
+[2020-02-01 20:04:11 train_model.py:125] INFO     epoch:29/30
+[2020-02-01 20:04:11 train_model.py:127] INFO     Step: 43100/45690, accuracy: 0.992188, cls loss: 0.061850, bbox loss: 0.056864,Landmark loss :0.075385,L2 loss: 0.049505, Total Loss: 0.215173 ,lr:0.000001 
+[2020-02-01 20:04:19 train_model.py:125] INFO     epoch:29/30
+[2020-02-01 20:04:19 train_model.py:127] INFO     Step: 43200/45690, accuracy: 0.968750, cls loss: 0.109398, bbox loss: 0.037631,Landmark loss :0.045007,L2 loss: 0.049505, Total Loss: 0.222726 ,lr:0.000001 
+[2020-02-01 20:04:26 train_model.py:125] INFO     epoch:29/30
+[2020-02-01 20:04:26 train_model.py:127] INFO     Step: 43300/45690, accuracy: 0.964844, cls loss: 0.173808, bbox loss: 0.039460,Landmark loss :0.061135,L2 loss: 0.049505, Total Loss: 0.304179 ,lr:0.000001 
+[2020-02-01 20:04:33 train_model.py:125] INFO     epoch:29/30
+[2020-02-01 20:04:33 train_model.py:127] INFO     Step: 43400/45690, accuracy: 0.980469, cls loss: 0.104292, bbox loss: 0.037462,Landmark loss :0.060360,L2 loss: 0.049505, Total Loss: 0.232888 ,lr:0.000001 
+[2020-02-01 20:04:40 train_model.py:125] INFO     epoch:29/30
+[2020-02-01 20:04:40 train_model.py:127] INFO     Step: 43500/45690, accuracy: 0.984375, cls loss: 0.058939, bbox loss: 0.035961,Landmark loss :0.061047,L2 loss: 0.049505, Total Loss: 0.187472 ,lr:0.000001 
+[2020-02-01 20:04:48 train_model.py:125] INFO     epoch:29/30
+[2020-02-01 20:04:48 train_model.py:127] INFO     Step: 43600/45690, accuracy: 0.988281, cls loss: 0.055511, bbox loss: 0.039827,Landmark loss :0.048867,L2 loss: 0.049505, Total Loss: 0.173797 ,lr:0.000001 
+[2020-02-01 20:04:56 train_model.py:125] INFO     epoch:29/30
+[2020-02-01 20:04:56 train_model.py:127] INFO     Step: 43700/45690, accuracy: 0.976562, cls loss: 0.102017, bbox loss: 0.039875,Landmark loss :0.057782,L2 loss: 0.049505, Total Loss: 0.229242 ,lr:0.000001 
+[2020-02-01 20:05:03 train_model.py:125] INFO     epoch:29/30
+[2020-02-01 20:05:03 train_model.py:127] INFO     Step: 43800/45690, accuracy: 0.988281, cls loss: 0.059127, bbox loss: 0.045035,Landmark loss :0.073759,L2 loss: 0.049505, Total Loss: 0.204909 ,lr:0.000001 
+[2020-02-01 20:05:11 train_model.py:125] INFO     epoch:29/30
+[2020-02-01 20:05:11 train_model.py:127] INFO     Step: 43900/45690, accuracy: 0.980469, cls loss: 0.100994, bbox loss: 0.032471,Landmark loss :0.044531,L2 loss: 0.049505, Total Loss: 0.211266 ,lr:0.000001 
+[2020-02-01 20:05:18 train_model.py:125] INFO     epoch:29/30
+[2020-02-01 20:05:18 train_model.py:127] INFO     Step: 44000/45690, accuracy: 0.984375, cls loss: 0.097218, bbox loss: 0.049782,Landmark loss :0.063841,L2 loss: 0.049505, Total Loss: 0.235455 ,lr:0.000001 
+[2020-02-01 20:05:25 train_model.py:125] INFO     epoch:29/30
+[2020-02-01 20:05:25 train_model.py:127] INFO     Step: 44100/45690, accuracy: 0.980469, cls loss: 0.100228, bbox loss: 0.041524,Landmark loss :0.074318,L2 loss: 0.049505, Total Loss: 0.244814 ,lr:0.000001 
+[2020-02-01 20:05:32 train_model.py:125] INFO     epoch:30/30
+[2020-02-01 20:05:32 train_model.py:127] INFO     Step: 44200/45690, accuracy: 0.976562, cls loss: 0.080325, bbox loss: 0.034404,Landmark loss :0.072396,L2 loss: 0.049505, Total Loss: 0.219428 ,lr:0.000001 
+[2020-02-01 20:05:40 train_model.py:125] INFO     epoch:30/30
+[2020-02-01 20:05:40 train_model.py:127] INFO     Step: 44300/45690, accuracy: 0.980469, cls loss: 0.110683, bbox loss: 0.036748,Landmark loss :0.046154,L2 loss: 0.049505, Total Loss: 0.224716 ,lr:0.000001 
+[2020-02-01 20:05:47 train_model.py:125] INFO     epoch:30/30
+[2020-02-01 20:05:47 train_model.py:127] INFO     Step: 44400/45690, accuracy: 0.968750, cls loss: 0.091226, bbox loss: 0.047029,Landmark loss :0.050861,L2 loss: 0.049505, Total Loss: 0.215107 ,lr:0.000001 
+[2020-02-01 20:05:54 train_model.py:125] INFO     epoch:30/30
+[2020-02-01 20:05:54 train_model.py:127] INFO     Step: 44500/45690, accuracy: 0.988281, cls loss: 0.103652, bbox loss: 0.031003,Landmark loss :0.047406,L2 loss: 0.049505, Total Loss: 0.216065 ,lr:0.000001 
+[2020-02-01 20:06:02 train_model.py:125] INFO     epoch:30/30
+[2020-02-01 20:06:02 train_model.py:127] INFO     Step: 44600/45690, accuracy: 0.968750, cls loss: 0.139280, bbox loss: 0.031213,Landmark loss :0.035272,L2 loss: 0.049505, Total Loss: 0.239664 ,lr:0.000001 
+[2020-02-01 20:06:09 train_model.py:125] INFO     epoch:30/30
+[2020-02-01 20:06:09 train_model.py:127] INFO     Step: 44700/45690, accuracy: 0.972656, cls loss: 0.103616, bbox loss: 0.035675,Landmark loss :0.044424,L2 loss: 0.049505, Total Loss: 0.215384 ,lr:0.000001 
+[2020-02-01 20:06:16 train_model.py:125] INFO     epoch:30/30
+[2020-02-01 20:06:16 train_model.py:127] INFO     Step: 44800/45690, accuracy: 0.964844, cls loss: 0.123751, bbox loss: 0.036725,Landmark loss :0.079952,L2 loss: 0.049505, Total Loss: 0.271570 ,lr:0.000001 
+[2020-02-01 20:06:24 train_model.py:125] INFO     epoch:30/30
+[2020-02-01 20:06:24 train_model.py:127] INFO     Step: 44900/45690, accuracy: 0.980469, cls loss: 0.107767, bbox loss: 0.044857,Landmark loss :0.056566,L2 loss: 0.049505, Total Loss: 0.236267 ,lr:0.000001 
+[2020-02-01 20:06:31 train_model.py:125] INFO     epoch:30/30
+[2020-02-01 20:06:31 train_model.py:127] INFO     Step: 45000/45690, accuracy: 0.972656, cls loss: 0.116448, bbox loss: 0.031662,Landmark loss :0.084105,L2 loss: 0.049505, Total Loss: 0.265889 ,lr:0.000001 
+[2020-02-01 20:06:38 train_model.py:125] INFO     epoch:30/30
+[2020-02-01 20:06:38 train_model.py:127] INFO     Step: 45100/45690, accuracy: 0.984375, cls loss: 0.102465, bbox loss: 0.040810,Landmark loss :0.064265,L2 loss: 0.049505, Total Loss: 0.236640 ,lr:0.000001 
+[2020-02-01 20:06:45 train_model.py:125] INFO     epoch:30/30
+[2020-02-01 20:06:45 train_model.py:127] INFO     Step: 45200/45690, accuracy: 0.980469, cls loss: 0.108242, bbox loss: 0.036250,Landmark loss :0.087583,L2 loss: 0.049505, Total Loss: 0.263455 ,lr:0.000001 
+[2020-02-01 20:06:52 train_model.py:125] INFO     epoch:30/30
+[2020-02-01 20:06:52 train_model.py:127] INFO     Step: 45300/45690, accuracy: 0.996094, cls loss: 0.048347, bbox loss: 0.037238,Landmark loss :0.086302,L2 loss: 0.049505, Total Loss: 0.202773 ,lr:0.000001 
+[2020-02-01 20:07:00 train_model.py:125] INFO     epoch:30/30
+[2020-02-01 20:07:00 train_model.py:127] INFO     Step: 45400/45690, accuracy: 0.980469, cls loss: 0.113741, bbox loss: 0.040403,Landmark loss :0.072027,L2 loss: 0.049505, Total Loss: 0.255474 ,lr:0.000001 
+[2020-02-01 20:07:07 train_model.py:125] INFO     epoch:30/30
+[2020-02-01 20:07:07 train_model.py:127] INFO     Step: 45500/45690, accuracy: 0.976562, cls loss: 0.088900, bbox loss: 0.039703,Landmark loss :0.049691,L2 loss: 0.049505, Total Loss: 0.207947 ,lr:0.000001 
+[2020-02-01 20:07:14 train_model.py:125] INFO     epoch:30/30
+[2020-02-01 20:07:14 train_model.py:127] INFO     Step: 45600/45690, accuracy: 0.972656, cls loss: 0.107503, bbox loss: 0.043135,Landmark loss :0.067250,L2 loss: 0.049505, Total Loss: 0.245826 ,lr:0.000001 
