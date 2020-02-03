@@ -29,6 +29,8 @@ def gen_tfrecords(save_file, input_size, name):
         if name == 'lfw':
             item4 = 'lfw_landmark.txt' 
         elif name == 'wider':
+            item4 = 'wider_landmark.txt'
+        elif name == 'lfw_wider':
             item4 = 'lfw_wider_landmark.txt'
         tf_filenames = [tf_filename1, tf_filename2, tf_filename3, tf_filename4]
         items = [item1, item2, item3, item4]
@@ -180,7 +182,7 @@ if __name__ == '__main__':
                         help='保存图片路径')
     parse.add_argument('--input_size', type=str, required=True, choices=['12', '24', '48'],
                         help='对于具体网络输入图片的大小')
-    parse.add_argument('--name', type=str, required=True, choices=['lfw', 'wider'],
+    parse.add_argument('--name', type=str, required=True, choices=['lfw', 'wider', 'lfw_wider'],
                         help='landmark是否包含wider数据集')
     args = parse.parse_args()
     gen_tfrecords(args.save_file, args.input_size, args.name)

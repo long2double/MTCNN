@@ -14,6 +14,8 @@ def gen_pnet_imglist(save_file, input_size, base_num, name):
     if name == 'lfw':
         anno_file = 'lfw_landmark.txt'
     elif name == 'wider':
+        anno_file = 'wider_landmark.txt'
+    elif name == 'lfw_wider':
         anno_file = 'lfw_wider_landmark.txt'
     with open(os.path.join(base_dir, anno_file), 'r') as f:
         landmark = f.readlines()
@@ -47,7 +49,7 @@ if __name__ == '__main__':
                         help='对于具体网络输入图片的大小')
     parse.add_argument('--base_num', type=int, default=300000,
                         help='neg基础数量')
-    parse.add_argument('--name', type=str, required=True, choices=['lfw', 'wider'],
+    parse.add_argument('--name', type=str, required=True, choices=['lfw', 'wider', 'lfw_wider'],
                         help='landmark是否含有wider数据集')
     args = parse.parse_args()
     gen_pnet_imglist(args.save_file, args.input_size, args.base_num, args.name)
